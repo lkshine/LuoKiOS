@@ -1,0 +1,32 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - AMScrollingNavbar (1.5.1)
+  - BaiduMapKit (3.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - AMScrollingNavbar (~> 1.5.1)
+  - BaiduMapKit
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMScrollingNavbar: 767ed2db60d927a809bddff5d01b739b7020b12b
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+
+PODFILE CHECKSUM: b84600e0608d8511dac573cc3566b85995fcdd8c
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoreMotionCtrl">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9I-Nt-TjI">
+                    <rect key="frame" x="30" y="80" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.1971027658" green="0.81274541879999995" blue="0.1366872771" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PushStartAcc">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStartAccAction:" destination="-1" eventType="touchUpInside" id="5Iu-mk-ntk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgZ-5U-ywM">
+                    <rect key="frame" x="30" y="120" width="250" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.78376652619999998" blue="0.017175175460000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PullStartAcc">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStarAccAction:" destination="-1" eventType="touchUpInside" id="Hi1-98-E15"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qB4-b3-aJU">
+                    <rect key="frame" x="30" y="240" width="250" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.78376652619999998" blue="0.017175175460000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PullStartGyro">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStartCyroAction:" destination="-1" eventType="touchUpInside" id="gnX-5y-bkC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpW-xT-hfC">
+                    <rect key="frame" x="30" y="320" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.1971027658" green="0.81274541879999995" blue="0.1366872771" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title=" PushStartMagneto ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStartMagnetoAction:" destination="-1" eventType="touchUpInside" id="KQT-Fn-NxW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0N-Gb-Dyh">
+                    <rect key="frame" x="30" y="360" width="250" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.78376652619999998" blue="0.017175175460000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title=" PullStartMagneto ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStartMagntoAction:" destination="-1" eventType="touchUpInside" id="y5X-jz-ZTr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trd-YO-nQI">
+                    <rect key="frame" x="320" y="120" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.80315363220000002" green="0.80315363220000002" blue="0.80315363220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PullStopAcc">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStopAccAction:" destination="-1" eventType="touchUpInside" id="aeG-6r-Z96"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdU-Ex-bXL">
+                    <rect key="frame" x="320" y="80" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.86898723820000001" green="0.1095770588" blue="0.073872646249999993" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PushStopAcc">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStopAccAction:" destination="-1" eventType="touchUpInside" id="mDP-Mk-EhY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7g-38-WjR">
+                    <rect key="frame" x="320" y="200" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.86898723820000001" green="0.1095770588" blue="0.073872646249999993" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PushStopGyro">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStopCyroAction:" destination="-1" eventType="touchUpInside" id="Hgd-9X-2vI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xU5-NR-2to">
+                    <rect key="frame" x="320" y="240" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.80315363220000002" green="0.80315363220000002" blue="0.80315363220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PullStopGyro">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStopCyroAction:" destination="-1" eventType="touchUpInside" id="mWV-ob-nGW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-Ji-8sZ">
+                    <rect key="frame" x="320" y="320" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.86898723820000001" green="0.1095770588" blue="0.073872646249999993" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PushStopMageto">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStopMagntoAction:" destination="-1" eventType="touchUpInside" id="v7I-Ey-5gw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMV-G6-eQw">
+                    <rect key="frame" x="320" y="360" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.80315363220000002" green="0.80315363220000002" blue="0.80315363220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PullStopMageto">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pullStopMagntoAction:" destination="-1" eventType="touchUpInside" id="pxo-CP-gTF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-rA-q7M">
+                    <rect key="frame" x="138" y="459" width="34" height="30"/>
+                    <state key="normal" title="push"/>
+                    <connections>
+                        <action selector="pushAction:" destination="-1" eventType="touchUpInside" id="Vbv-Qk-qhZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x40-jm-x8X">
+                    <rect key="frame" x="430" y="459" width="30" height="30"/>
+                    <state key="normal" title="pull"/>
+                    <connections>
+                        <action selector="pullAction:" destination="-1" eventType="touchUpInside" id="jLk-pf-1tq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F70-Su-Akh">
+                    <rect key="frame" x="30" y="200" width="250" height="30"/>
+                    <color key="backgroundColor" red="0.1971027658" green="0.81274541879999995" blue="0.1366872771" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="PushStartGyro">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pushStartCyroAction:" destination="-1" eventType="touchUpInside" id="V0a-vc-aIT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tMV-G6-eQw" firstAttribute="centerY" secondItem="R0N-Gb-Dyh" secondAttribute="centerY" id="0MC-rL-t8h"/>
+                <constraint firstItem="PbK-Ji-8sZ" firstAttribute="width" secondItem="pdU-Ex-bXL" secondAttribute="width" id="1X6-fq-0an"/>
+                <constraint firstItem="qB4-b3-aJU" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="leading" id="1kh-2u-fm0"/>
+                <constraint firstItem="TgZ-5U-ywM" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="1sy-lz-aIg"/>
+                <constraint firstItem="WpW-xT-hfC" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="leading" id="26S-0H-ZHO"/>
+                <constraint firstItem="WpW-xT-hfC" firstAttribute="top" secondItem="qB4-b3-aJU" secondAttribute="bottom" constant="50" id="2K2-OI-AEs"/>
+                <constraint firstAttribute="trailing" secondItem="pdU-Ex-bXL" secondAttribute="trailing" constant="30" id="3UP-HV-0NE"/>
+                <constraint firstItem="c7g-38-WjR" firstAttribute="height" secondItem="pdU-Ex-bXL" secondAttribute="height" id="4V8-05-id7"/>
+                <constraint firstItem="trd-YO-nQI" firstAttribute="height" secondItem="pdU-Ex-bXL" secondAttribute="height" id="8OO-sW-XsZ"/>
+                <constraint firstItem="qB4-b3-aJU" firstAttribute="top" secondItem="F70-Su-Akh" secondAttribute="bottom" constant="10" id="A4Z-XR-HlG"/>
+                <constraint firstItem="EJd-rA-q7M" firstAttribute="top" secondItem="R0N-Gb-Dyh" secondAttribute="bottom" constant="69" id="Eoa-O8-NX1"/>
+                <constraint firstItem="xU5-NR-2to" firstAttribute="height" secondItem="pdU-Ex-bXL" secondAttribute="height" id="FPa-XO-0YX"/>
+                <constraint firstItem="b9I-Nt-TjI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="HbO-zu-BXl"/>
+                <constraint firstItem="pdU-Ex-bXL" firstAttribute="centerY" secondItem="b9I-Nt-TjI" secondAttribute="centerY" id="Jan-XY-N5O"/>
+                <constraint firstItem="qB4-b3-aJU" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="KJq-yT-J2k"/>
+                <constraint firstItem="TgZ-5U-ywM" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="leading" id="LlZ-et-y8B"/>
+                <constraint firstItem="xU5-NR-2to" firstAttribute="leading" secondItem="pdU-Ex-bXL" secondAttribute="leading" id="MgR-sl-WYB"/>
+                <constraint firstItem="c7g-38-WjR" firstAttribute="centerY" secondItem="F70-Su-Akh" secondAttribute="centerY" id="NPn-TD-Hff"/>
+                <constraint firstItem="trd-YO-nQI" firstAttribute="leading" secondItem="pdU-Ex-bXL" secondAttribute="leading" id="PUs-6E-Egh"/>
+                <constraint firstItem="F70-Su-Akh" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="leading" id="Rbk-Y9-xhu"/>
+                <constraint firstItem="tMV-G6-eQw" firstAttribute="width" secondItem="pdU-Ex-bXL" secondAttribute="width" id="S3v-uE-88Q"/>
+                <constraint firstItem="trd-YO-nQI" firstAttribute="centerY" secondItem="TgZ-5U-ywM" secondAttribute="centerY" id="SBJ-K0-VOe"/>
+                <constraint firstItem="R0N-Gb-Dyh" firstAttribute="top" secondItem="WpW-xT-hfC" secondAttribute="bottom" constant="10" id="STC-Qz-BhS"/>
+                <constraint firstItem="R0N-Gb-Dyh" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="leading" id="Sv7-ha-uqx"/>
+                <constraint firstItem="x40-jm-x8X" firstAttribute="centerX" secondItem="tMV-G6-eQw" secondAttribute="centerX" id="TJb-G9-E9c"/>
+                <constraint firstItem="R0N-Gb-Dyh" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="W9a-cd-vdb"/>
+                <constraint firstItem="pdU-Ex-bXL" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="alH-Qh-ZF9"/>
+                <constraint firstItem="TgZ-5U-ywM" firstAttribute="top" secondItem="b9I-Nt-TjI" secondAttribute="bottom" constant="10" id="b93-Xh-Jm5"/>
+                <constraint firstItem="WpW-xT-hfC" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="boW-rK-RlJ"/>
+                <constraint firstItem="F70-Su-Akh" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="e3w-wm-cxJ"/>
+                <constraint firstItem="tMV-G6-eQw" firstAttribute="height" secondItem="pdU-Ex-bXL" secondAttribute="height" id="efO-ff-3yn"/>
+                <constraint firstItem="x40-jm-x8X" firstAttribute="centerY" secondItem="EJd-rA-q7M" secondAttribute="centerY" id="fdh-X7-jvQ"/>
+                <constraint firstItem="b9I-Nt-TjI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="ff0-2h-qrA"/>
+                <constraint firstItem="c7g-38-WjR" firstAttribute="width" secondItem="pdU-Ex-bXL" secondAttribute="width" id="gty-1L-ojS"/>
+                <constraint firstItem="EJd-rA-q7M" firstAttribute="centerX" secondItem="R0N-Gb-Dyh" secondAttribute="centerX" id="h93-ke-o5R"/>
+                <constraint firstItem="trd-YO-nQI" firstAttribute="width" secondItem="pdU-Ex-bXL" secondAttribute="width" id="hou-0Y-PiE"/>
+                <constraint firstItem="xU5-NR-2to" firstAttribute="centerY" secondItem="qB4-b3-aJU" secondAttribute="centerY" id="hqK-VA-y7D"/>
+                <constraint firstItem="WpW-xT-hfC" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="ifS-Ac-DNK"/>
+                <constraint firstItem="pdU-Ex-bXL" firstAttribute="leading" secondItem="b9I-Nt-TjI" secondAttribute="trailing" constant="40" id="jyl-zn-FhP"/>
+                <constraint firstItem="PbK-Ji-8sZ" firstAttribute="height" secondItem="pdU-Ex-bXL" secondAttribute="height" id="kAP-pI-SZX"/>
+                <constraint firstItem="PbK-Ji-8sZ" firstAttribute="leading" secondItem="pdU-Ex-bXL" secondAttribute="leading" id="mDT-2F-hIa"/>
+                <constraint firstItem="qB4-b3-aJU" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="mdY-Yz-Kru"/>
+                <constraint firstItem="pdU-Ex-bXL" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="n1G-Gr-Cza"/>
+                <constraint firstItem="R0N-Gb-Dyh" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="nR4-R5-cYs"/>
+                <constraint firstItem="F70-Su-Akh" firstAttribute="top" secondItem="TgZ-5U-ywM" secondAttribute="bottom" constant="50" id="o6W-Xs-3rT"/>
+                <constraint firstItem="xU5-NR-2to" firstAttribute="width" secondItem="pdU-Ex-bXL" secondAttribute="width" id="q81-Mb-3eL"/>
+                <constraint firstItem="tMV-G6-eQw" firstAttribute="leading" secondItem="pdU-Ex-bXL" secondAttribute="leading" id="qgK-yF-7bB"/>
+                <constraint firstItem="PbK-Ji-8sZ" firstAttribute="centerY" secondItem="WpW-xT-hfC" secondAttribute="centerY" id="tCX-Kx-OAR"/>
+                <constraint firstItem="c7g-38-WjR" firstAttribute="leading" secondItem="pdU-Ex-bXL" secondAttribute="leading" id="vGD-l7-AbI"/>
+                <constraint firstItem="TgZ-5U-ywM" firstAttribute="height" secondItem="b9I-Nt-TjI" secondAttribute="height" id="w5D-fH-XOU"/>
+                <constraint firstItem="F70-Su-Akh" firstAttribute="width" secondItem="b9I-Nt-TjI" secondAttribute="width" id="wbJ-SM-muC"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

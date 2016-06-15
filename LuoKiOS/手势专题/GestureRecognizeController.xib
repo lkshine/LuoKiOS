@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GestureRecognizeController">
+            <connections>
+                <outlet property="showImageView" destination="Z6J-tO-KVa" id="9un-Bx-FaI"/>
+                <outlet property="showLabel" destination="nl2-n3-WCF" id="ENJ-Fy-I0Y"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z6J-tO-KVa">
+                    <rect key="frame" x="180" y="225" width="240" height="150"/>
+                    <color key="backgroundColor" red="0.17247603963549007" green="0.80157886125654454" blue="0.22925315764277923" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="8rU-56-u51"/>
+                        <constraint firstAttribute="height" constant="150" id="p9B-9B-B7t"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="长按开始" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nl2-n3-WCF">
+                    <rect key="frame" x="225" y="105" width="150" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="h0B-YP-vT1"/>
+                        <constraint firstAttribute="width" constant="150" id="hGQ-ig-QZ1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.17247603959999999" green="0.8015788613" blue="0.22925315760000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Z6J-tO-KVa" firstAttribute="top" secondItem="nl2-n3-WCF" secondAttribute="bottom" constant="50" id="AYD-Rj-nQe"/>
+                <constraint firstItem="Z6J-tO-KVa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MDJ-2X-K7O"/>
+                <constraint firstItem="Z6J-tO-KVa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mTD-Cl-TEo"/>
+                <constraint firstItem="nl2-n3-WCF" firstAttribute="centerX" secondItem="Z6J-tO-KVa" secondAttribute="centerX" id="xZU-d9-doD"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="512" height="320"/>
+    </resources>
+</document>

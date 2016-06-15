@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PushWithNotifyCtrl">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="c5h-Nn-7kb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V47-pU-sP7">
+                    <rect key="frame" x="255" y="80" width="90" height="30"/>
+                    <state key="normal" title="本地推送通知"/>
+                    <connections>
+                        <action selector="locationPushAction:" destination="-1" eventType="touchUpInside" id="ph5-Kw-uoQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="V47-pU-sP7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="U1h-gT-jy9"/>
+                <constraint firstItem="V47-pU-sP7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ucJ-q1-0ZS"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<teachers>
+    <teacher>
+        <name>
+            勒公彪
+        </name>
+        <sex>
+            男
+        </sex>
+        <age>
+            21
+        </age>
+    </teacher>
+    <teacher>
+        <name>
+            王恕
+        </name>
+        <sex>
+            男
+        </sex>
+        <age>
+            22
+        </age>
+    </teacher>
+    <teacher>
+        <name>
+            晁辉
+        </name>
+        <sex>
+            男
+        </sex>
+        <age>
+            21
+        </age>
+    </teacher>
+</teachers>

@@ -1,0 +1,367 @@
+//
+//  PrefixHeader.pch
+//  LuoKiOS ---- pch创建及使用
+//
+//  Created by lkshine on 16/5/10.
+//  Copyright © 2016年 lkshine. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#define IOS8 [[[UIDevice currentDevice]systemVersion] floatValue] >= 8.0
+#define wSrceem [UIScreen mainScreen].bounds.size.width
+#define hSrceem [UIScreen mainScreen].bounds.size.height
+
+
+// 二选一配置控制台输出格式
+//如果只想让NSLog打印我们输出的内容：
+//#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+
+//附加输出文件名和打印语句的行号：
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+
+//由于NSLog的使用效率比较低，所以在我们的项目中非调试状态下不应该出现大量的NSLog，所以有些时候我们会在项目的.pch文件中去定义一个宏，让调试打印函数只在调试的时候有用，发布的时候就不能使用。
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+
+
+
+#import "GestureRecognizeController.h"  // 手势专题 (5大手势，自定义手势)
+#import "CustomGestureRecognizer.h"     // 自定义手势（左右擦拭滑动）
+
+
+#import "LKViewController.h"            // UIView专题 （外观，变形，动画，交互，自定义view，相对坐标系）
+#import "CustomTouchView.h"             // 代码自定义交互UIView类
+#import "LKXibCustomView.h"             // xib自定义交互UIView类
+
+
+#import "AVAudioController.h"           // 音频专题 (播放音频，录制音频)
+#import <AVFoundation/AVFoundation.h>   // 系统音频类
+
+
+#import "ImageViewController.h"         // UIImage专题 （SDWebImage及Image的帧动画）
+#import "UIImageView+WebCache.h"        // SDWebImage
+
+
+#import "AlertViewController.h"         // AlertViewController专题 (runningtime找类的属性，kindOf找类的控件，kvc微调告警提示属性)
+
+
+#import "ScrollViewController.h"        // 滚动专题
+
+
+#import "TableViewController.h"         // 列表专题 (模型抽离，MJRefresh，self sizing的动态cell变高，代码计算cell变高)
+#import "NumberGroup.h"                 // 二维对象模型《一维数组，二维字典，三维链表》
+#import "MyCell.h"                      // 自定义cell（xib）
+#import "NSString+Extent.h"             // 代码自动变高分类（仅对Label）
+#import "Number.h"                      // 代码自动变高模型
+#import "MJRefresh.h"                   // 上啦下拉刷新
+
+
+#import "WebViewController.h"           // Web专题 (加载网络资源，加载本地资源，进度条，进度圈)
+#import "NJKWebViewProgressView.h"
+#import "NJKWebViewProgress.h"          // 第三方网络页面加载进度条
+#import "KVNProgress.h"                 // 第三方网络页面加载进度圆圈
+
+
+#import "SegmentedViewController.h"     // 分段控件专题 (分段宽，分段默认，分段事件，分段图片，removeFromSuperView陷阱详解)
+
+
+#import "CollectionViewController.h"    // 集合视图专题 (xib自定义cell，cell间距，整体间距，相对布局，补充视图)
+#import "XibCell.h"
+#import "CustomCollectionCell.h"        // 自定义集合cell
+#import "CollectionReusableHeaderView.h"// 自定义header
+#import "CollectionReusableFooterView.h"// 自定义footer
+
+
+
+#import "TextFieldController.h"         // TextField专题
+
+
+#import "TextViewController.h"          // TextView专题
+
+
+#import "SearchBarController.h"         // SearchBar专题
+
+
+
+#import "PageController.h"              // 页控件专题
+#import "CustomPageCtrl.h"              // 自定义页控件
+
+
+
+#import "PickerViewController.h"        //选择器专题
+
+
+#import "DataPickerController.h"        //日期选择器专题
+
+
+
+#import "DataPickerCountDownController.h" //倒计时
+
+
+
+#import "SliderController.h"            //Slider专题
+
+
+#import "MyViewController.h"            //ViewCtrl专题
+
+
+#import "NavCtrl.h"                     // Navigation专题
+
+
+#import "TabBarController.h"            //tabBarCtrl专题
+
+
+
+#import "NSThreadController.h"
+#import "KCImageData.h"
+
+
+#import "NSOperationController.h"
+#import "NSBlockOperationVC.h"
+#import "NSInvocationOperationVC.h"
+
+
+
+#import "GCDViewCtrl.h"
+
+
+#import "ThreadSyncController.h"
+#import "NSLockController.h"
+#import "SynchronizedController.h"
+#import "GCDSemaphoreController.h"
+#import "NSConditionController.h"
+
+
+
+
+#import "NetworkProgrammingController.h"
+#import "DataParsingCtrl.h"
+#import "SaxDataParsingCtrl.h"
+#import "DomDataParsingCtrl.h"
+//#import "GDataXMLNode.h"   // DOM解析需要的解析类   /* 不能写在该处，会导致错误，写在需要调用该类的地方才行 */
+
+
+#import "AFNetworking.h"//主要用于网络请求方法
+#import "UIKit+AFNetworking.h"//里面有异步加载图片的方法
+
+
+#import "ReachabilityCtrl.h"
+#import "Reachability.h"
+
+
+
+#import "APICtrl.h"
+
+
+#import "SandboxCtrl.h"
+#import "PlistCtrl.h"
+
+#import "PreferenceCtrl.h"
+
+#import "ArchivedCtrl.h"
+#import "CustomArchiveObject.h"
+
+#import "SQLiteCtrl.h"
+#import <sqlite3.h>
+#import "FMDB.h"
+#import "FMDBctrl.h"
+
+
+
+#import "CoreDataCtrl.h"
+
+
+
+
+#import "CameraCtrl.h"
+
+#import "MapCtrl.h"
+
+
+
+#import "LocationCtrl.h"
+
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>//引入周边雷达功能所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+
+
+
+
+#import "BaiduMapCtrl.h"
+
+
+
+#import "CoreMotionCtrl.h"
+
+
+
+#import "DeviceCtrl.h"
+
+
+
+#import "SysSchemesCtrl.h"
+
+
+#import "CoreGraphicCtrl.h"
+
+#import "UIColor+Random.h"
+
+
+#import "SWRevealViewController.h"
+
+
+
+#import "DrawImageCtrl.h"
+#import "DrawImageView.h"
+
+
+#import "CALayerCtrl.h"
+#import "CALayerView.h"
+#import "CABasicAnimationView.h"
+
+
+
+
+#import "CoreAnimationCtrl.h"
+#import "CoreAnimationView.h"
+#import "KeyFrameView.h"
+#import "AnimationGroupView.h"
+#import "TransitionView.h"
+
+
+
+#import "NavigationTransitionDelegate.h"  //转场自定义特效导航栏
+#import "NavigationAnimationController.h"
+
+#import "TransitionModal.h"               //转场自定义特效modal
+#import "PresentationVc.h"
+#import "ModalAnimatedTransitioning.h"
+
+
+
+
+#import "BundleOrUrlCtrl.h"
+
+
+
+
+#import "NSArray+ZXPUnicode.h"
+#import "NSObject+ZXPUnicode.h"
+#import "NSDictionary+ZXPUnicode.h"
+#import "NSObject+ZXPUnicode.h"
+
+
+
+
+
+#import "QRcodeCtrl.h"
+
+
+
+#import "PushWithNotifyCtrl.h"
+
+
+
+
+#import "SMSVerificationCtrl.h"
+#import <SMS_SDK/SMSSDK.h>  //短信验证码
+
+
+
+#import "HACursor.h"        //网易新闻菜单栏
+#import "UIView+Extension.h"
+
+
+
+
+#import "UIViewController+ScrollingNavbar.h"   //上拉显示下拉隐藏的导航栏
+
+
+
+
+#endif /* PrefixHeader_pch */
+
+/*
+ iOS9以后改为了 变为 HTTPS，所以要在 工程的 Info.plist文件做相对应的修改，以适配 http 协议的链接url
+ Info.plist -> 新增 App Transport Security Settings -> 新增 Allow Arbitrary Loads -> 设置为：YES;
+ */
+
+
+/*
+ 
+ 如何添加pch文件？
+ 
+ 1. command + N -> iOS -> Other -> PCH File
+    -> 统一的命名为"PrefixHeader.pch" -> 新建OK, 然后就是关联文件了.
+ 2. 项目 -> TARGETS -> 选中第一个 -> Build Settings -> 搜索"prefix header" 
+    -> 将 Prefix Header栏 双击 填写如下格式"英文项目名称/PrefixHeader.pch" -> Finish!
+
+ ps: 可以随意命名pch名字，但是需要注意与BuildSettings里关联的要统一，这里用PrefixHeader.pch只是约定俗成。
+ 
+*/
+
+
+/*
+ 
+    多线程总结:
+ 
+     1> 无论使用哪种方法进行多线程开发，每个线程启动后并不一定立即执行相应的操作，具体什么时候由系统调度（CPU空闲时就会执行）。
+
+     2> 更新UI应该在主线程（UI线程）中进行，并且推荐使用同步调用，常用的方法如下：
+
+        a. - (void)performSelectorOnMainThread:(SEL)aSelector withObject:(id)arg waitUntilDone:(BOOL)wait (或者
+        b. -(void)performSelector:(SEL)aSelector onThread:(NSThread *)： withObject:(id)arg waitUntilDone:(BOOL) wait;方法传递主线程[NSThread mainThread])
+        c. [NSOperationQueue mainQueue] addOperationWithBlock:
+        d. dispatch_sync(dispatch_get_main_queue(), ^{})
+ 
+     3> NSThread适合轻量级多线程开发，控制线程顺序比较难，同时线程总数无法控制（每次创建并不能重用之前的线程，只能创建一个新的线程）。
+
+     4> 对于简单的多线程开发建议使用NSObject的扩展方法完成，而不必使用NSThread。
+
+     5> 可以使用NSThread的currentThread方法取得当前线程，
+        使用 sleepForTimeInterval:方法让当前线程休眠。
+
+     6> NSOperation进行多线程开发可以控制线程总数及线程依赖关系。
+
+     7> 创建一个NSOperation不应该直接调用start方法（如果直接start则会在主线程中调用）而是应该放到NSOperationQueue中启动。
+
+     8> 相比NSInvocationOperation推荐使用NSBlockOperation，代码简单，同时由于闭包性使它没有传参问题。
+
+     9> NSOperation是对GCD面向对象的ObjC封装，但是相比GCD基于C语言开发，效率却更高，
+        建议如果任务之间有依赖关系或者想要监听任务完成状态的情况下优先选择NSOperation否则使用GCD。
+
+    10> 在GCD中串行队列中的任务被安排到一个单一线程执行（不是主线程），
+        可以方便地控制执行顺序；并发队列在多个线程中执行（前提是使用异步方法），
+        顺序控制相对复杂，但是更高效。
+
+    11> 在GDC中一个操作是多线程执行还是单线程执行取决于当前队列类型和执行方法，
+        只有队列类型为并行队列并且使用异步方法执行时才能在多个线程中执行（
+        如果是并行队列使用同步方法调用则会在主线程中执行）。
+
+    12> 相比使用NSLock，@synchronized更加简单，推荐使用后者。
+ 
+ */
