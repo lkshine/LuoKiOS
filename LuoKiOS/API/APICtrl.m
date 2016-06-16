@@ -28,13 +28,20 @@
 
 @implementation APICtrl
 
+#pragma mark -- 在这个模型里，我特地设置了delegate，block，属性三种回传的方式
 - (ParamsData *)myData {
     
     if (!_myData) {
         
         _myData = [[ParamsData alloc] init];
-        _myData.delegate = self;
+        _myData.delegate = self;    //delegate成功
+        
         [_myData getdata];
+        NSLog(@"property_dic = %@", _myData.dic);   //属性失败
+        _myData.dataBlock = ^(NSMutableDictionary *dic){    //block回传成功
+        
+            NSLog(@"\n\t🚩\n block_dic = %@ \n\t📌", dic);
+        };
     }
     
     return _myData;
@@ -82,16 +89,17 @@
     [super viewDidLoad];
     [self myArray];
     [self myData];
-    [self jsonData];
-    [self xmlData];
+//    [self jsonData];
+//    [self xmlData];
 
 }
 
 
-- (void)data:(NSMutableDictionary *)array {
+#pragma mark -- DataDelegate
+- (void)data:(NSMutableDictionary *)dic {
     
     
-    NSLog(@"array = %@", array);
+    NSLog(@"delegate_dic = %@", dic);
     
 }
 

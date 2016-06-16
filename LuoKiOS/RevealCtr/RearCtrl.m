@@ -49,7 +49,8 @@
                      @"CALayerCtrl", @"CoreAnimationCtrl",
                      @"BundleOrUrlCtrl", @"SysSchemesCtrl",
                      @"QRcodeCtrl", @"PushWithNotifyCtrl",
-                     @"SMSVerificationCtrl", @"CollectionViewController"];
+                     @"SMSVerificationCtrl", @"CollectionViewController",
+                     @"APICtrl"];
     }
     return  _dataArr;
 }
@@ -148,6 +149,9 @@
             break;
         case 17:
             viewController = [[CollectionViewController alloc] init];
+            break;
+        case 18:
+            viewController = [[APICtrl alloc] init];
             break;
             
         default:

@@ -270,7 +270,6 @@
 //    if([self.tableView respondsToSelector:@selector(setSeparatorInset:)]){
 //        cell.separatorInset = UIEdgeInsetsZero;
 //    }
-//    
     
     return cell;
 }
@@ -293,6 +292,7 @@
  }
 
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
+    
     NSLog(@"%s",__func__);
     //取出Cell的数据源
     NumberGroup *sourceGroup = self.dataList[sourceIndexPath.section];
@@ -344,14 +344,12 @@
 - (void)tableView:(UITableView*)tableView willBeginEditingRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSLog(@"%s", __func__);
-    
 }
 
 //完成编辑调用
 - (void)tableView:(UITableView*)tableView didEndEditingRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSLog(@"%s", __func__);
-    
 }
 
 
@@ -361,8 +359,10 @@
     NSMutableArray * indexArray = [NSMutableArray new];
     
     for (NumberGroup * numberGroup in self.dataList) {
+        
         [indexArray addObject:numberGroup.groupIndex];
     }
+    
     return indexArray;
 }
 
@@ -374,16 +374,6 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
 }
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
 

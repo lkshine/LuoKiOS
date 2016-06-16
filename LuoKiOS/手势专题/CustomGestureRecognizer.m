@@ -34,6 +34,21 @@
 }
 
 
+#pragma mark --  手势事件条件过滤
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(nonnull UITouch *)touch {
+    
+    //输出点击的view的类名
+    NSLog(@"\n\t🚩\n %@ \n\t📌", NSStringFromClass([touch.view class]));
+    
+    //若为UITbaleViewCellContentView(即点击了tableviewCell)，则不截获Touch事件
+    if ([NSStringFromClass([touch.view class]) isEqualToString:@"UITableViewCellContentView"]) {
+        return NO;
+    }
+    
+    return YES;
+}
+
+
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     
     // Make sure we've moved a minimum amount since curTickleStart

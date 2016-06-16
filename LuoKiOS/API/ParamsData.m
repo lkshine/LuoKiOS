@@ -15,19 +15,24 @@
 #define kBaidu_Key  @"b3e67c1aa92b533b4596d7a3b7356d8f"
 
 @implementation ParamsData
+{
+    NSMutableDictionary * _gDic;
+}
+
+
 
 - (void)getdata {
 
     NSString *httpUrl = @"http://apis.baidu.com/heweather/weather/free";
     NSString *httpArg = @"city=beijing";
-    [self request: httpUrl withHttpArg: httpArg];
+//    [self request: httpUrl withHttpArg: httpArg];
     [self request1: httpUrl withHttpArg: httpArg];
     
 }
 
 
 #pragma mark -- connection 带header
--(void)request: (NSString*)httpUrl withHttpArg: (NSString*)HttpArg  {
+-(void)request:(NSString*)httpUrl withHttpArg: (NSString*)HttpArg  {
     
     NSString * urlStr = [[NSString alloc]initWithFormat: @"%@?%@", httpUrl, HttpArg];
     NSURL * url = [NSURL URLWithString: urlStr];
@@ -89,27 +94,55 @@
     [manager GET:kAPI_Url
       parameters:params
          success:^(NSURLSessionDataTask *task, id responseObject) {
-        //如果数据请求成功返回到responseObject中
-        NSMutableDictionary * datasouce = [responseObject mutableCopy];
-        
-        NSLog(@"Session_Dic = %@,", datasouce);
-//        //在返回的字典中通过关键字result索引到的数据存放到另外的数组中
-//        NSArray * resultArray = [datasouce objectForKey:@"HeWeather data service 3.0"];
-//
-//        //遍历resultArray数组得到navigation对应的数据
-//        for (NSDictionary * dic in resultArray) {
-//            NSArray * navigation = [dic objectForKey:@"basic"];
-//            [result addObject:navigation];
-//        }
-        [self.delegate data:datasouce];
+             
+            //如果数据请求成功返回到responseObject中
+            NSMutableDictionary * datasouce = [responseObject mutableCopy];
+
+            NSLog(@"Session_Dic = %@,", datasouce);
+            //        //在返回的字典中通过关键字result索引到的数据存放到另外的数组中
+            //        NSArray * resultArray = [datasouce objectForKey:@"HeWeather data service 3.0"];
+            //
+            //        //遍历resultArray数组得到navigation对应的数据
+            //        for (NSDictionary * dic in resultArray) {
+            //            NSArray * navigation = [dic objectForKey:@"basic"];
+            //            [result addObject:navigation];
+            //        }
+
+            //代理存档
+            if (self.delegate) {
+
+                [self.delegate data:datasouce];
+            }
+
+
+            //属性存档
+            if (self.dic) {
+
+                self.dic = datasouce;
+            }
+
+
+            //block存档
+//            if (self.dataBlock) {
+
+                self.dataBlock(datasouce);
+//            }  //这三种套不套外层的if都可以
+     
     }
          failure:^(NSURLSessionDataTask *task, NSError *error) {
              
-        NSLog(@"%@",error);
+             NSLog(@"%@",error);
     }];
 
 
 }
+
+
+#pragma mark -- PS:很多时候，我会忘记block怎么用了，不妨回头看看找感觉：http://blog.csdn.net/lct710992308/article/details/50681337
+
+
+
+
 
 @end
 

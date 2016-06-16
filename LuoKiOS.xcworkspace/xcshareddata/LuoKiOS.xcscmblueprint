@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A59C078C5386249C6791941B1BFE4B79A3C61BF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A59C078C5386249C6791941B1BFE4B79A3C61BF0" : 0,
+    "C7BDE6211C2F9264B087F33442191862E7558013" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8F70E4E-9301-48EE-AE6B-59A88CD6B457",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A59C078C5386249C6791941B1BFE4B79A3C61BF0" : "LuoKiOS\/",
+    "C7BDE6211C2F9264B087F33442191862E7558013" : "LuoKiOS\/LuoKiOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LuoKiOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LuoKiOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lkshine\/LuoKiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A59C078C5386249C6791941B1BFE4B79A3C61BF0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lkshine\/LuoKiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7BDE6211C2F9264B087F33442191862E7558013"
+    }
+  ]
+}
