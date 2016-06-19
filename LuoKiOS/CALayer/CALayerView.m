@@ -10,15 +10,15 @@
 
 @interface CALayerView ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UIImageView *clipImageView;
+@property (weak, nonatomic) IBOutlet UIImageView * imageView;
+@property (weak, nonatomic) IBOutlet UIImageView * clipImageView;
 
 @end
 
 
 @implementation CALayerView
 
-+ (instancetype) caLayerView {
++ (instancetype)caLayerView {
     
     CALayerView * caLayerView = [[[NSBundle mainBundle] loadNibNamed:@"CALayerView" owner:self options:nil] lastObject];
     
@@ -63,7 +63,7 @@
     self.clipImageView.layer.masksToBounds = YES;
 
     /*
-     //UIKIT中也提供了裁剪方法
+    //UIKIT中也提供了裁剪方法
     self.clipImageView.clipsToBounds       = YES;
      */
 }

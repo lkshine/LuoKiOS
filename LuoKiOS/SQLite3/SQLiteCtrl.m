@@ -41,7 +41,7 @@ myBlock b1 = ^(int a, int b){
 }
 @end
 
-
+// 详细参考： http://my.oschina.net/u/2340880/blog/600820 和 http://www.cnblogs.com/penn-wang/p/4792477.html
 
 
 @implementation SQLiteCtrl

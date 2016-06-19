@@ -27,10 +27,11 @@
 
 /*移动动画实现*/
 - (void)move {
-    
-    
+    NSLog(@"\n\t🚩\n 1view = %@ \n\t📌", NSStringFromCGRect(self.moveView.frame));
+    NSLog(@"\n\t🚩\n 1layer = %@ \n\t📌", NSStringFromCGRect(self.moveView.layer.frame));
     
     [UIView animateWithDuration:2 animations:^{
+        
         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
         [UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self.moveView cache:YES];
         
@@ -47,8 +48,8 @@
         animation.duration            = 2.0;
         
         //不返回原位置
-//        animation.removedOnCompletion = NO;
-//        animation.fillMode            = kCAFillModeForwards;
+        animation.removedOnCompletion = NO;
+        animation.fillMode            = kCAFillModeForwards;
         
         //设置变化的属性值
         CGPoint orignalPosition       = self.moveView.layer.position;
@@ -61,7 +62,18 @@
         [self.moveView.layer addAnimation:animation forKey:nil];
     }];
     
+   
 }
+
+
+//通过两次时机的打印，可以知道基本动画不会改变view和其rootLayer本身frame
+- (IBAction)getAction:(UIButton *)sender {
+    
+
+    NSLog(@"\n\t🚩\n 2view = %@ \n\t📌", NSStringFromCGRect(self.moveView.frame));
+    NSLog(@"\n\t🚩\n 2layer = %@ \n\t📌", NSStringFromCGRect(self.moveView.layer.frame));
+}
+
 
 //初始化xib时候加载图片
 - (void)awakeFromNib {

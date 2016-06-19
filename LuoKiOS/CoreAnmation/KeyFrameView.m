@@ -1,5 +1,5 @@
 //
-//  KeyFrameView.m
+//  KeyFrameView.m  -- 关键帧动画
 //  LuoKiOS
 //
 //  Created by lkshine on 16/6/5.
@@ -119,8 +119,6 @@
     
    
     animation.values                = @[value4, @(rotationValue2), value2, @(rotationValue2), value1, @(rotationValue1), value3, value4];
-
-
     
     
     [self.snowIV.layer addAnimation:animation forKey:nil];

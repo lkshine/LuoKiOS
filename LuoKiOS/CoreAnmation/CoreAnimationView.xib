@@ -29,10 +29,19 @@
                         <constraint firstAttribute="width" constant="50" id="eKN-TH-onb"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46T-lQ-Wbv">
+                    <rect key="frame" x="147" y="102" width="30" height="30"/>
+                    <state key="normal" title="get"/>
+                    <connections>
+                        <action selector="getAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z94-PO-YNN"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="2vO-Pe-EfK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3bU-e7-SmJ"/>
+                <constraint firstItem="46T-lQ-Wbv" firstAttribute="centerY" secondItem="2vO-Pe-EfK" secondAttribute="centerY" id="HHo-65-k6o"/>
+                <constraint firstItem="46T-lQ-Wbv" firstAttribute="leading" secondItem="2vO-Pe-EfK" secondAttribute="trailing" constant="18" id="IyW-vQ-Dq0"/>
                 <constraint firstItem="2vO-Pe-EfK" firstAttribute="top" secondItem="dQg-qK-avi" secondAttribute="bottom" constant="34" id="caA-O7-9Yo"/>
                 <constraint firstItem="dQg-qK-avi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="iPZ-62-h7F"/>
                 <constraint firstItem="dQg-qK-avi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yFE-s3-MPo"/>

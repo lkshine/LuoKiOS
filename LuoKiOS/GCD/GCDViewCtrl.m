@@ -50,7 +50,7 @@
     [super viewDidLoad];
     [self layoutUI];
 }
-
+// 【重点】异步和多线程的的区别：http://www.cnblogs.com/ydhliphonedev/archive/2011/09/22/2185455.html
 #pragma mark 界面布局
 - (void)layoutUI {
     

@@ -1,5 +1,5 @@
 //
-//  TransitionView.m
+//  TransitionView.m    ----    转场动画
 //  LuoKiOS
 //
 //  Created by lkshine on 16/6/5.

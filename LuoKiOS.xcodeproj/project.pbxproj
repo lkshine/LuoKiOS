@@ -16,6 +16,10 @@
 		B408E3F31CF8774800D00987 /* PreferenceCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B408E3F21CF8774800D00987 /* PreferenceCtrl.m */; };
 		B40BDB191D07CAD2002EB1DC /* QRcodeCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B40BDB181D07CAD2002EB1DC /* QRcodeCtrl.m */; };
 		B40BDB1C1D07CBCA002EB1DC /* QRcodeWebViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B40BDB1B1D07CBCA002EB1DC /* QRcodeWebViewCtrl.m */; };
+		B41913941D16BF0400DD30E3 /* DynamicAnimatorCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B41913931D16BF0400DD30E3 /* DynamicAnimatorCtrl.m */; };
+		B41913961D16BF7500DD30E3 /* DynamicAnimatorCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41913951D16BF7500DD30E3 /* DynamicAnimatorCtrl.xib */; };
+		B419139A1D16CE1B00DD30E3 /* MotionEffectCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B41913991D16CE1B00DD30E3 /* MotionEffectCtrl.m */; };
+		B41913A01D16CF4400DD30E3 /* UIView+MotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = B419139F1D16CF4400DD30E3 /* UIView+MotionEffect.m */; };
 		B41EDC991CFB25630062FD93 /* CoreDataCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B41EDC981CFB25630062FD93 /* CoreDataCtrl.m */; };
 		B41EDC9C1CFB26310062FD93 /* LKCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B41EDC9A1CFB26310062FD93 /* LKCoreData.xcdatamodeld */; };
 		B41EDCA51CFB2B930062FD93 /* Wife+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B41EDC9E1CFB2B930062FD93 /* Wife+CoreDataProperties.m */; };
@@ -363,6 +367,13 @@
 		B40BDB181D07CAD2002EB1DC /* QRcodeCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRcodeCtrl.m; sourceTree = "<group>"; };
 		B40BDB1A1D07CBCA002EB1DC /* QRcodeWebViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRcodeWebViewCtrl.h; sourceTree = "<group>"; };
 		B40BDB1B1D07CBCA002EB1DC /* QRcodeWebViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRcodeWebViewCtrl.m; sourceTree = "<group>"; };
+		B41913921D16BF0400DD30E3 /* DynamicAnimatorCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimatorCtrl.h; sourceTree = "<group>"; };
+		B41913931D16BF0400DD30E3 /* DynamicAnimatorCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimatorCtrl.m; sourceTree = "<group>"; };
+		B41913951D16BF7500DD30E3 /* DynamicAnimatorCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicAnimatorCtrl.xib; sourceTree = "<group>"; };
+		B41913981D16CE1B00DD30E3 /* MotionEffectCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionEffectCtrl.h; sourceTree = "<group>"; };
+		B41913991D16CE1B00DD30E3 /* MotionEffectCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionEffectCtrl.m; sourceTree = "<group>"; };
+		B419139E1D16CF4400DD30E3 /* UIView+MotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionEffect.h"; sourceTree = "<group>"; };
+		B419139F1D16CF4400DD30E3 /* UIView+MotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionEffect.m"; sourceTree = "<group>"; };
 		B41EDC971CFB25630062FD93 /* CoreDataCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataCtrl.h; sourceTree = "<group>"; };
 		B41EDC981CFB25630062FD93 /* CoreDataCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataCtrl.m; sourceTree = "<group>"; };
 		B41EDC9B1CFB26310062FD93 /* LKCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LKCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -993,6 +1004,27 @@
 			path = Sandbox;
 			sourceTree = "<group>";
 		};
+		B41913911D16BEC200DD30E3 /* DynamicAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B41913921D16BF0400DD30E3 /* DynamicAnimatorCtrl.h */,
+				B41913931D16BF0400DD30E3 /* DynamicAnimatorCtrl.m */,
+				B41913951D16BF7500DD30E3 /* DynamicAnimatorCtrl.xib */,
+			);
+			path = DynamicAnimator;
+			sourceTree = "<group>";
+		};
+		B41913971D16CDFB00DD30E3 /* MotionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B41913981D16CE1B00DD30E3 /* MotionEffectCtrl.h */,
+				B41913991D16CE1B00DD30E3 /* MotionEffectCtrl.m */,
+				B419139E1D16CF4400DD30E3 /* UIView+MotionEffect.h */,
+				B419139F1D16CF4400DD30E3 /* UIView+MotionEffect.m */,
+			);
+			path = MotionEffect;
+			sourceTree = "<group>";
+		};
 		B423B3AF1D09543200C86845 /* SMS_SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -1359,9 +1391,11 @@
 				B44C9A4B1CFDA7000036769F /* UIDevice */,
 				B4F2F5371CFCF3A100564468 /* BaiduMap */,
 				B49FCC691CFC362A0065534F /* 3DTouch */,
+				B41913911D16BEC200DD30E3 /* DynamicAnimator */,
 				B49FCC6A1CFC362A0065534F /* CALayer */,
 				B49FCC6B1CFC362A0065534F /* CameraAndAlbum */,
 				B49FCC6C1CFC362A0065534F /* CoreAnmation */,
+				B41913971D16CDFB00DD30E3 /* MotionEffect */,
 				B49FCC6D1CFC362A0065534F /* CoreGraphics */,
 				B49FCC6E1CFC362A0065534F /* CoreMotion */,
 				B49FCC6F1CFC362A0065534F /* Map */,
@@ -1680,16 +1714,8 @@
 				B4E803981CF6FD5800ECD3B8 /* GestureRecognizeController.h */,
 				B4E803991CF6FD5800ECD3B8 /* GestureRecognizeController.m */,
 				B4E8039A1CF6FD5800ECD3B8 /* GestureRecognizeController.xib */,
-				B4E8039B1CF6FD5800ECD3B8 /* 音频专题 */,
 			);
 			path = "手势专题";
-			sourceTree = "<group>";
-		};
-		B4E8039B1CF6FD5800ECD3B8 /* 音频专题 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "音频专题";
 			sourceTree = "<group>";
 		};
 		B4E8039C1CF6FD5800ECD3B8 /* 网络状态监测专题 */ = {
@@ -2268,6 +2294,7 @@
 				B4F2F53C1CFCF3B700564468 /* BaiduMapCtrl.xib in Resources */,
 				B4C583C41D0859F800EF508A /* PushWithNotifyCtrl.xib in Resources */,
 				B4E805021CF6FD5800ECD3B8 /* SearchBarController.xib in Resources */,
+				B41913961D16BF7500DD30E3 /* DynamicAnimatorCtrl.xib in Resources */,
 				B4E8054C1CF6FD5800ECD3B8 /* MyViewController.xib in Resources */,
 				B4E8051C1CF6FD5800ECD3B8 /* ImageViewController.xib in Resources */,
 				B4E805271CF6FD5800ECD3B8 /* eat_10.jpg in Resources */,
@@ -2465,6 +2492,8 @@
 				B488DD5E1CF9D01400819FCA /* FMDatabase.m in Sources */,
 				B4E805011CF6FD5800ECD3B8 /* SearchBarController.m in Sources */,
 				B40BDB1C1D07CBCA002EB1DC /* QRcodeWebViewCtrl.m in Sources */,
+				B41913941D16BF0400DD30E3 /* DynamicAnimatorCtrl.m in Sources */,
+				B41913A01D16CF4400DD30E3 /* UIView+MotionEffect.m in Sources */,
 				B452CC261D0414A600CAC63B /* CALayerCtrl.m in Sources */,
 				B4E8049D1CF6FD5800ECD3B8 /* NSString+MJExtension.m in Sources */,
 				B41EDC991CFB25630062FD93 /* CoreDataCtrl.m in Sources */,
@@ -2583,6 +2612,7 @@
 				B4280B931D09AF9500BF567E /* AuthcodeView.m in Sources */,
 				B4E804E01CF6FD5800ECD3B8 /* GDataXMLNode.m in Sources */,
 				B4E804901CF6FD5800ECD3B8 /* UIImage+KVNEmpty.m in Sources */,
+				B419139A1D16CE1B00DD30E3 /* MotionEffectCtrl.m in Sources */,
 				B4280B7F1D09778800BF567E /* HAScrollNavBar.m in Sources */,
 				B4E805061CF6FD5800ECD3B8 /* SliderController.m in Sources */,
 				B4E804A41CF6FD5800ECD3B8 /* MJRefreshHeader.m in Sources */,

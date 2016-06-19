@@ -239,18 +239,25 @@
 #import "DrawImageView.h"
 
 
-#import "CALayerCtrl.h"
+#import "CALayerCtrl.h"                    
+/*
+ CALayer是视图的展示，父类是NSObjects，所以不是UIResponder类及其子类是无法响应事件的，
+ 但相比UIView他有个锚点属性，CALayer基本属性（点位、大小、颜色、通透）和隐式动画（变形 -- 位移，缩放，旋转，通透）
+ */
 #import "CALayerView.h"
-#import "CABasicAnimationView.h"
+#import "CABasicAnimationView.h" //隐式动画,默认0.25s执行完毕，依赖CALayer类展现
 
 
 
 
 #import "CoreAnimationCtrl.h"
-#import "CoreAnimationView.h"
-#import "KeyFrameView.h"
-#import "AnimationGroupView.h"
-#import "TransitionView.h"
+/*
+ 
+ */
+#import "CoreAnimationView.h"   //基本动画,在隐式动画的基础上添加时间，重复率属性，依赖CALayer类展现
+#import "KeyFrameView.h"        //关键帧，在基本动画的基础上添加路线和值数组属性，如同数组一样，有序按某一个设置轨迹执行多个单一动画
+#import "AnimationGroupView.h"  //动画组，多个关键帧组成者
+#import "TransitionView.h"      //动的过渡效果
 
 
 
@@ -262,6 +269,11 @@
 #import "ModalAnimatedTransitioning.h"
 
 
+
+
+#import "DynamicAnimatorCtrl.h"         //动态力学行为动画   UIKit Dynamics能基于程序实现的物理效果实现运动拟真
+
+#import "MotionEffectCtrl.h"            //运动效果动画      UIMotionEffect则能基于设备的运动实现运动拟真
 
 
 #import "BundleOrUrlCtrl.h"

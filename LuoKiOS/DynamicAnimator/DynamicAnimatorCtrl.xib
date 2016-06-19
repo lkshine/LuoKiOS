@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DynamicAnimatorCtrl">
+            <connections>
+                <outlet property="imageview" destination="IEE-7S-Ir3" id="Vuy-5I-L1u"/>
+                <outlet property="snapBUtton" destination="Mhv-K4-5St" id="cW5-iw-zDf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gue-CV-RhY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma1-iD-hjV">
+                    <rect key="frame" x="122" y="550" width="112" height="50"/>
+                    <color key="backgroundColor" red="0.86898723820000001" green="0.1095770588" blue="0.073872646249999993" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Collision">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="collisionAction:" destination="-1" eventType="touchUpInside" id="jYu-cF-l8C"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBJ-3i-hE7">
+                    <rect key="frame" x="244" y="550" width="112" height="50"/>
+                    <color key="backgroundColor" red="0.1971027658" green="0.81274541879999995" blue="0.1366872771" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Gravity">
+                        <color key="titleColor" red="1" green="0.84578053450428925" blue="0.44802413805210672" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="gravityAction:" destination="-1" eventType="touchUpInside" id="Nt9-58-inb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhv-K4-5St">
+                    <rect key="frame" x="0.0" y="550" width="112" height="50"/>
+                    <color key="backgroundColor" red="0.08613493522" green="0.70172065949999995" blue="0.99748445679999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bbm-Xr-bvj"/>
+                    </constraints>
+                    <state key="normal" title="Snap">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="snapAction:" destination="-1" eventType="touchUpInside" id="eqG-Bx-ku2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eT1-VO-QWt">
+                    <rect key="frame" x="366" y="550" width="112" height="50"/>
+                    <color key="backgroundColor" red="0.80315363220000002" green="0.80315363220000002" blue="0.80315363220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Attach">
+                        <color key="titleColor" red="0.70985356675392675" green="0.36224521987192526" blue="0.47365759043747535" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="attachAction:" destination="-1" eventType="touchUpInside" id="HdF-Kp-Nu5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1M-yn-Q2k">
+                    <rect key="frame" x="488" y="550" width="112" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.78376652619999998" blue="0.017175175460000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Push">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pushAction:" destination="-1" eventType="touchUpInside" id="O3T-vG-kfD"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpiderMan" translatesAutoresizingMaskIntoConstraints="NO" id="IEE-7S-Ir3">
+                    <rect key="frame" x="30" y="140" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IEE-7S-Ir3" secondAttribute="height" multiplier="1:1" id="8Fi-xs-RLa"/>
+                        <constraint firstAttribute="width" constant="80" id="FeQ-rT-JPF"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oBJ-3i-hE7" firstAttribute="width" secondItem="Mhv-K4-5St" secondAttribute="width" id="65F-dG-qcS"/>
+                <constraint firstItem="r1M-yn-Q2k" firstAttribute="centerY" secondItem="Mhv-K4-5St" secondAttribute="centerY" id="7SN-Ny-SG9"/>
+                <constraint firstItem="ma1-iD-hjV" firstAttribute="height" secondItem="Mhv-K4-5St" secondAttribute="height" id="D41-BR-i7K"/>
+                <constraint firstItem="r1M-yn-Q2k" firstAttribute="height" secondItem="Mhv-K4-5St" secondAttribute="height" id="EQ4-wX-KEg"/>
+                <constraint firstItem="r1M-yn-Q2k" firstAttribute="leading" secondItem="eT1-VO-QWt" secondAttribute="trailing" constant="10" id="Fox-70-b73"/>
+                <constraint firstItem="IEE-7S-Ir3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="LeC-Fm-gD6"/>
+                <constraint firstItem="IEE-7S-Ir3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="QXm-YZ-Bz4"/>
+                <constraint firstAttribute="trailing" secondItem="r1M-yn-Q2k" secondAttribute="trailing" id="QZG-oi-VA3"/>
+                <constraint firstItem="eT1-VO-QWt" firstAttribute="leading" secondItem="oBJ-3i-hE7" secondAttribute="trailing" constant="10" id="RBl-an-oxn"/>
+                <constraint firstItem="oBJ-3i-hE7" firstAttribute="height" secondItem="Mhv-K4-5St" secondAttribute="height" id="THS-3U-BfD"/>
+                <constraint firstItem="eT1-VO-QWt" firstAttribute="centerY" secondItem="Mhv-K4-5St" secondAttribute="centerY" id="Vad-ju-bDa"/>
+                <constraint firstItem="eT1-VO-QWt" firstAttribute="width" secondItem="Mhv-K4-5St" secondAttribute="width" id="Zc2-3e-Hh9"/>
+                <constraint firstItem="r1M-yn-Q2k" firstAttribute="width" secondItem="Mhv-K4-5St" secondAttribute="width" id="fn5-xL-V2F"/>
+                <constraint firstAttribute="bottom" secondItem="Mhv-K4-5St" secondAttribute="bottom" id="j8a-g6-D5B"/>
+                <constraint firstItem="oBJ-3i-hE7" firstAttribute="leading" secondItem="ma1-iD-hjV" secondAttribute="trailing" constant="10" id="jjN-Y2-rsq"/>
+                <constraint firstItem="oBJ-3i-hE7" firstAttribute="centerY" secondItem="Mhv-K4-5St" secondAttribute="centerY" id="kSV-Nl-Ppk"/>
+                <constraint firstItem="ma1-iD-hjV" firstAttribute="centerY" secondItem="Mhv-K4-5St" secondAttribute="centerY" id="kwf-KH-0EJ"/>
+                <constraint firstItem="Mhv-K4-5St" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="n4R-PX-67T"/>
+                <constraint firstItem="ma1-iD-hjV" firstAttribute="leading" secondItem="Mhv-K4-5St" secondAttribute="trailing" constant="10" id="q9W-GU-zXE"/>
+                <constraint firstItem="ma1-iD-hjV" firstAttribute="width" secondItem="Mhv-K4-5St" secondAttribute="width" id="uRj-bO-nyd"/>
+                <constraint firstItem="eT1-VO-QWt" firstAttribute="height" secondItem="Mhv-K4-5St" secondAttribute="height" id="xUN-oQ-pWr"/>
+            </constraints>
+            <point key="canvasLocation" x="148" y="283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SpiderMan" width="122" height="122"/>
+    </resources>
+</document>

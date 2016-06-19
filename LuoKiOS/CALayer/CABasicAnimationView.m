@@ -174,7 +174,24 @@
     }];
     
 }
-
+/*
+ 
+ //通过uiview设置（2D效果）
+ 12 //    self.iconView.transform = CGAffineTransformMakeTranslation(0, -100);
+ 13     //通过layer来设置（3D效果,x，y，z三个方向）
+ 14 //    self.iconView.layer.transform = CATransform3DMakeTranslation(100, 20, 0);
+ 15
+ 16     //通过KVC来设置
+ 17 //    NSValue *v = [NSValue valueWithCATransform3D:CATransform3DMakeTranslation(100, 20, 0)];
+ 18 //    [self.iconView.layer setValue:v forKeyPath:@"transform"];
+ 19 //    //如果是只需要设置在某一个方向上的移动，可以参考下面的代码
+ 20 //    //在x的方向上向左移动100
+ 21 //    [self.iconView.layer setValue:@(-100) forKeyPath:@"transform.translation.x"];
+ 22
+ 23     //旋转
+ 24     self.iconView.layer.transform=CATransform3DMakeRotation(M_PI_4, 1, 1, 0.5);
+ 
+ */
 
 
 @end

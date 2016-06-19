@@ -223,3 +223,40 @@
 }
 
 @end
+
+
+
+// 关于Block内部要不要使用weakSelf的几种情况 http://www.jianshu.com/p/c6ca540861d9
+/*
+ 我们知道当对block使用不当时会造成循环引用导致内存泄露，这里列出几种使用block到底会不会引起循环引用的例子，通过重写控制器dealloc，当控制器被pop看有没有调用来判断。
+ 
+ block是控制器的属性，如果block内部没有使用weakSelf将会造成内存泄露
+ self.testBlock = ^()
+ {
+ NSLog(@"%@",self.mapView);
+ };
+ self.testBlock();
+ 把block内部抽出一个作为self的方法，当使用weakSelf调用这个方法，并且这个方法里有self的属性，block不会造成内存泄露
+ self.testBlock = ^()
+ {
+ [weakSelf test];
+ };
+ -(void)test
+ {
+ NSLog(@"%@",self.mapView);
+ }
+ 当block不是self的属性时，block内部使用self也不会造成内存泄露
+ TestBlock testBlock = ^()
+ {
+ NSLog(@"%@",self.mapView);
+ };
+ [self test:testBlock];
+ 当使用类方法有block作为参数使用时，block内部使用self也不会造成内存泄露
+ 
+ [WDNetwork testBlock:^(id responsObject) {
+ 
+ NSLog(@"%@",self.mapView);
+ }];
+ 以上几个是我通过控制器pop时，通过有没有走dealloc方法测出来的。
+ 
+ */

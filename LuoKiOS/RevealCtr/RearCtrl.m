@@ -50,7 +50,9 @@
                      @"BundleOrUrlCtrl", @"SysSchemesCtrl",
                      @"QRcodeCtrl", @"PushWithNotifyCtrl",
                      @"SMSVerificationCtrl", @"CollectionViewController",
-                     @"APICtrl"];
+                     @"APICtrl", @"CoreAnimationCtrl",
+                     @"DynamicAnimatorCtrl", @"MotionEffectCtrl",
+                     @"CoreMotionCtrl"];
     }
     return  _dataArr;
 }
@@ -152,6 +154,18 @@
             break;
         case 18:
             viewController = [[APICtrl alloc] init];
+            break;
+        case 19:
+            viewController = [[CoreAnimationCtrl alloc] init];
+            break;
+        case 20:
+            viewController = [[DynamicAnimatorCtrl alloc] init];
+            break;
+        case 21:
+            viewController = [[MotionEffectCtrl alloc] init];
+            break;
+        case 22:
+            viewController = [[CoreMotionCtrl alloc] init];
             break;
             
         default:
