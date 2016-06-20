@@ -2226,7 +2226,7 @@
 				TargetAttributes = {
 					B4E802B61CF6FC7D00ECD3B8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4GFVSA6756;
+						DevelopmentTeam = RGQB7HU87L;
 					};
 					B4E802CF1CF6FC7E00ECD3B8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -2768,7 +2768,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hubei Green New Property Management Co., Ltd. (RGQB7HU87L)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2792,7 +2792,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luok.LuoKiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "09e2199c-52ca-46af-a8f5-656a66a2c3e2";
 			};
 			name = Debug;
 		};
@@ -2802,7 +2802,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hubei Green New Property Management Co., Ltd. (RGQB7HU87L)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2826,7 +2826,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = luok.LuoKiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "09e2199c-52ca-46af-a8f5-656a66a2c3e2";
 			};
 			name = Release;
 		};
