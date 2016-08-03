@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AdvertiseView.h"   //启动广告
 
 #import "RevealCtrl.h"      //侧滑菜单主页的四个控制器
 #import "FrontCtrl.h"
@@ -25,9 +26,22 @@
 
 @interface AppDelegate ()
 
+//启动广告1里需要的属性
+@property (nonatomic, strong) UIImageView * advertiseView;//启动AD的image其实就是launchImage底部相似的一个广告界面的覆盖，就是一个用户视觉的欺瞒效果
+
+//启动广告2里需要的属性
+@property (nonatomic, strong) UIButton               * countBtn;
+@property (strong, nonatomic) UIView                 * launchView;
+@property (nonatomic,strong ) UIImageView            * imgBg;
+@property (nonatomic,strong ) UIImageView            * oldLaunchView;
+@property (nonatomic, assign) int                      count;
+@property (nonatomic, strong) UITapGestureRecognizer * tap;
+
 @end
 
 
+// 广告显示的时间
+static int const showtime = 3;
 
 @implementation AppDelegate
 
@@ -52,7 +66,7 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
+    
     
     //注册本地通知
     [self registerLocationPushNotifyWithApplication:application];
@@ -66,8 +80,282 @@
     //初始化CIA
     [self initCIA];
     
+    //启动广告1
+//    [self launchAdvertising1];
+    
+    //启动广告2
+    [self launchAdvertising2];
+    
     return YES;
 }
+
+
+
+//  在启动页进行广告添加 http://blog.csdn.net/wx_jin/article/details/50617041（launchImag加载完后加载一张雷同图片覆盖上，形同视觉欺骗手法，达到启动页即广告页效果） 和http://www.cocoachina.com/ios/20160614/16671.html（通过SB的key值获取launchImage图片，并对其进行修改，再做bringSubviewToFront将其推前来达到启动页与广告页会显示效果，这里我改良了下对广告页添加跳过button，手法同链接一）
+
+#pragma mark -- 启动广告1（一样的广告页盖在了启动页上，形同一体）
+- (void)launchAdvertising1 {
+    // 1.判断沙盒中是否存在广告图片，如果存在，直接显示
+    NSString *filePath = [self getFilePathWithImageName:[kUserDefaults valueForKey:adImageName]];
+    
+    BOOL isExist = [self isFileExistWithFilePath:filePath];
+    if (isExist) {// 图片存在
+        
+        AdvertiseView *advertiseView = [[AdvertiseView alloc] initWithFrame:self.window.bounds];
+        advertiseView.filePath = filePath;
+        [advertiseView show];
+        
+    }
+    
+    // 2.无论沙盒中是否存在广告图片，都需要重新调用广告接口，判断广告是否更新
+    [self getAdvertisingImage];
+    
+}
+
+
+/**
+ *  判断文件是否存在
+ */
+- (BOOL)isFileExistWithFilePath:(NSString *)filePath
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    BOOL isDirectory = FALSE;
+    return [fileManager fileExistsAtPath:filePath isDirectory:&isDirectory];
+}
+
+/**
+ *  初始化广告页面
+ */
+- (void)getAdvertisingImage
+{
+    
+    // TODO 请求广告接口
+    
+    // 这里原本采用美团的广告接口，现在了一些固定的图片url代替
+    NSArray *imageArray = @[@"http://imgsrc.baidu.com/forum/pic/item/9213b07eca80653846dc8fab97dda144ad348257.jpg", @"http://pic.paopaoche.net/up/2012-2/20122220201612322865.png", @"http://img5.pcpop.com/ArticleImages/picshow/0x0/20110801/2011080114495843125.jpg", @"http://www.mangowed.com/uploads/allimg/130410/1-130410215449417.jpg"];
+    NSString *imageUrl = imageArray[arc4random() % imageArray.count];
+    
+    // 获取图片名:43-130P5122Z60-50.jpg
+    NSArray *stringArr = [imageUrl componentsSeparatedByString:@"/"];
+    NSString *imageName = stringArr.lastObject;
+    
+    // 拼接沙盒路径
+    NSString *filePath = [self getFilePathWithImageName:imageName];
+    BOOL isExist = [self isFileExistWithFilePath:filePath];
+    if (!isExist){// 如果该图片不存在，则删除老图片，下载新图片
+        
+        [self downloadAdImageWithUrl:imageUrl imageName:imageName];
+        
+    }
+    
+}
+
+/**
+ *  下载新图片
+ */
+- (void)downloadAdImageWithUrl:(NSString *)imageUrl imageName:(NSString *)imageName
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
+        UIImage *image = [UIImage imageWithData:data];
+        
+        NSString *filePath = [self getFilePathWithImageName:imageName]; // 保存文件的名称
+        
+        if ([UIImagePNGRepresentation(image) writeToFile:filePath atomically:YES]) {// 保存成功
+            NSLog(@"保存成功");
+            [self deleteOldImage];
+            [kUserDefaults setValue:imageName forKey:adImageName];
+            [kUserDefaults synchronize];
+            // 如果有广告链接，将广告链接也保存下来
+        }else{
+            NSLog(@"保存失败");
+        }
+        
+    });
+}
+
+/**
+ *  删除旧图片
+ */
+- (void)deleteOldImage
+{
+    NSString *imageName = [kUserDefaults valueForKey:adImageName];
+    if (imageName) {
+        NSString *filePath = [self getFilePathWithImageName:imageName];
+        NSFileManager *fileManager = [NSFileManager defaultManager];
+        [fileManager removeItemAtPath:filePath error:nil];
+    }
+}
+
+/**
+ *  根据图片名拼接文件路径
+ */
+- (NSString *)getFilePathWithImageName:(NSString *)imageName
+{
+    if (imageName) {
+        
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,NSUserDomainMask, YES);
+        NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:imageName];
+        
+        return filePath;
+    }
+    
+    return nil;
+}
+
+
+#pragma mark -- 启动广告2（通过bringSubviewToFront方法，将launchImage替换后再推前定时显示，达到启动页和广告页都显示的需求）
+/*
+ 兼容使用LaunchImage启动图
+ 这边去获取启动图（为了防止广告图还在加载中，启动图已经加载结束了）
+ */
+- (void)launchAdvertising2 {
+    
+    CGSize viewSize = self.window.bounds.size;
+    NSString * viewOrientation = @"Portrait";//横屏请设置成 @"Landscape"
+    NSString * launchImage = nil;
+    NSArray * imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    
+    for(NSDictionary * dict in imagesDict) {
+        
+        CGSize imageSize = CGSizeFromString(dict[@"UILaunchImageSize"]);
+        
+        if(CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]]) {
+            launchImage = dict[@"UILaunchImageName"];
+        }
+    }
+    
+    //这里我一直不知道为什么明明添加了launchImage就是不显示，参考http://zhidao.baidu.com/link?url=Me3e5YPhPupTqCAmjD5Wx-wfvEsGya-XU8p8Tk9VJI4dH5vIswyc9Ng-fpVIPhvFS8pJ5AzaEerjXTqwjokhSHx05RQzhv3eU_5HIm2zUoe来配置就好
+    self.oldLaunchView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:launchImage]];
+    self.oldLaunchView.frame = self.window.bounds;
+    self.oldLaunchView.contentMode = UIViewContentModeScaleAspectFill;
+    [self.window addSubview:self.oldLaunchView];
+    
+    [self loadLaunchAd];
+}
+
+//懒加载第二次切换好后的window上添加个“跳过”按钮
+- (UIButton *)countBtn {
+    
+    if (!_countBtn) {
+        
+        CGFloat btnW = 60;
+        CGFloat btnH = 30;
+        _countBtn = [[UIButton alloc] initWithFrame:CGRectMake(kscreenWidth - btnW - 24, btnH, btnW, btnH)];
+        [_countBtn addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
+        [_countBtn setTitle:[NSString stringWithFormat:@"跳过%d", showtime] forState:UIControlStateNormal];
+        _countBtn.titleLabel.font = [UIFont systemFontOfSize:15];
+        [_countBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        _countBtn.backgroundColor = [UIColor colorWithRed:38 /255.0 green:38 /255.0 blue:38 /255.0 alpha:0.6];
+        _countBtn.layer.cornerRadius = 4;
+    }
+    return _countBtn;
+}
+
+
+/*
+ 加载自定义广告
+ */
+-(void)loadLaunchAd {
+    
+    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(handleTimer) userInfo:nil repeats:NO];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil];
+    if (storyboard == nil) {
+        return;
+    }
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"LaunchScreen"]; //记得在LaunchScreen.storyboard里添加Identity -- Storyboard ID 为LaunchScreen,另外需要注意配置的是直接将imageview加到该sb上【如果用Nav了把再其上的三个view灯删除，只需要在该sb上留一个ImageView即可】
+    if (viewController == nil) {
+        return;
+    }
+    
+    self.launchView = viewController.view;
+    [self.window addSubview:self.launchView];
+    
+    self.imgBg=[[UIImageView alloc]initWithFrame:self.window.frame];
+    
+    
+    [self.launchView addSubview:self.imgBg];
+    
+    [self.oldLaunchView removeFromSuperview];
+    
+    [self.window bringSubviewToFront:self.launchView];
+    
+    //显示好广告页后添加个跳过按钮
+    [self.window addSubview:self.countBtn];
+    
+    //点击广告图片跳转到广告界面
+    _tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(pushToAd)];
+    [self.window  addGestureRecognizer:_tap];
+    
+    //gcd倒计时让跳过button开始倒计时起来
+    [self startCoundown];
+    
+}
+
+// GCD倒计时
+- (void)startCoundown {
+    
+    __block int timeout = showtime + 1; //倒计时时间 + 1
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_source_t _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);
+    dispatch_source_set_timer(_timer,dispatch_walltime(NULL, 0),1.0 * NSEC_PER_SEC, 0); //每秒执行
+    dispatch_source_set_event_handler(_timer, ^{
+        
+        if (timeout <= 0) { //倒计时结束，关闭
+            
+            dispatch_source_cancel(_timer);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                
+                [self dismiss];
+            });
+        }
+        else {
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                
+                [_countBtn setTitle:[NSString stringWithFormat:@"跳过%d",timeout] forState:UIControlStateNormal];
+            });
+            timeout--;
+        }
+    });
+    dispatch_resume(_timer);
+}
+
+
+
+-(void)handleTimer {
+    
+    [self.imgBg removeFromSuperview];
+    [self.launchView removeFromSuperview];
+    [self.countBtn removeFromSuperview];
+}
+
+- (void)pushToAd{
+    
+    [self dismiss];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"pushtoad" object:nil userInfo:nil];
+}
+
+// 移除广告页面
+- (void)dismiss
+{
+    [UIView animateWithDuration:0.3f animations:^{
+        [self.imgBg removeFromSuperview];
+        [self.launchView removeFromSuperview];
+        [self.countBtn removeFromSuperview];
+        //手势也需要移除吗？Absolute！，不然手势一直在屏幕上会一直调广告的控制器了
+        [self.window removeGestureRecognizer:_tap];
+        
+    } completion:^(BOOL finished) {
+        
+        
+    }];
+    
+}
+//=========================================================
 
 
 #pragma mark -- CIA验证码
@@ -121,13 +409,13 @@
 }
 
 //- (void)applicationWillResignActive:(UIApplication *)application {
-//    
+//
 //    [BMKMapView willBackGround];//当应用即将后台时调用，停止一切调用opengl相关的操作
 //}
 //
 //
 //- (void)applicationDidBecomeActive:(UIApplication *)application {
-//    
+//
 //    [BMKMapView didForeGround];//当应用恢复前台状态时调用，回复地图的渲染和opengl相关的操作
 //}
 
@@ -179,7 +467,7 @@
 
 #pragma mark -- 应用程序从前台切换到后台,当用户点击Home键的时候，应用程序会经历从Active -> Background -> Suspended过程，在这个过程中，会调用AppDelegate对象中的applicationWillResignActive: 以及applicationDidEnterBackground:方法 。在实际的开发过程中，当用户点击Home键使应用程序切换到后台时，需要在这些方法中对数据或者状态进行保存。
 /*
-    在默认情况下，applicationDidEnterBackground方法有大概5秒钟的时间来完成一些任务。
+ 在默认情况下，applicationDidEnterBackground方法有大概5秒钟的时间来完成一些任务。
  假如说5秒钟的时间不够，则需要调用beginBackgroundTaskWithExpirationHandler：方法来申请更多的后台运行时间，后台运行的时间由backgroundTimeRemaining属性来确定。
  */
 - (void)applicationDidEnterBackground:(UIApplication *)application {

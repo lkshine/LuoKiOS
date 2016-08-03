@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LKSingleton : NSObject
+@interface LKSingleton : NSObject <NSCopying>
 
 @end

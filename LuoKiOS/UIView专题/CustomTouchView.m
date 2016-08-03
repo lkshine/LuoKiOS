@@ -19,13 +19,19 @@
  */
 
 
-@implementation CustomTouchView
 
+
+@implementation CustomTouchView
+//对于构造方法，这里讲解的还不错：http://www.tuicool.com/articles/2aEnEzV （讲的很详细）和这个实用版：http://blog.sina.com.cn/s/blog_6f72ff900102v0ms.html （这个就是工厂方法/类方法，用来快捷给属性赋值，快速初始化一个实例对象）再就是这个 http://www.bkjia.com/IOSjc/1009069.html（把第一个链接和第二个链接的名词区分开来了），带init的就是构造方法
+// 使用NSProxy和NSObject设计代理类的差异 http://www.tuicool.com/articles/ya2eqaM
+// 算法（$1）实现的手势图形识别http://www.tuicool.com/articles/RNju2a3
+#pragma mark -- 构造方法
 - (instancetype)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     
     if (self) {
+        //下面的部分就是自定义的构造方法内容了
         
         self.backgroundColor = [UIColor orangeColor];
         NSLog(@"%s",__func__);
@@ -84,7 +90,7 @@
     NSLog(@"%s 接收到触摸事件",__func__);
 }
 
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     
     NSLog(@"%s, event: %@",__func__,event);
         
@@ -93,7 +99,7 @@
     
 }
 
--(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     
     NSLog(@"%s",__func__);
     
@@ -109,12 +115,11 @@
 - (void)layoutSubviews {
     
     self.subView.frame = CGRectMake(30, 30, 60, 60);
-    
 }
 
 
 /* 当需要做自定义绘图的时候，实现drawRect:方法；下面的代码实现了为视图四周添加一个边框；*/
--(void)drawRect:(CGRect)rect{
+- (void)drawRect:(CGRect)rect {
     NSLog(@"%s",__func__);
     
     CGContextRef context = UIGraphicsGetCurrentContext();

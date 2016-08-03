@@ -47,18 +47,18 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DataParsing/DataParsingCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DataParsing/DataParsingCtrl.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DataParsing/SaxDataParsingCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/HATestView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RevealCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/FrontCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/FrontCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/HATestView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RearCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RearCtrl.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RightCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RevealCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RearCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/FrontCtrl.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RightCtrl.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RevealCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/HATestView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RearCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RearCtrl.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RevealCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/HATestView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/FrontCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/RevealCtr/RightCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.m" isTestSource="false" />
@@ -68,19 +68,6 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SMSVerification/AuthcodeView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/aa.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/ImageViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/PictureFiles/Leo.jpg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_31.jpg" isTestSource="false" />
@@ -125,24 +112,43 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_08.jpg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/ImageViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIImage专题/ImageViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSBundleOrNSUrl/aa.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/XmlData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/APICtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/ParamsData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/JsonData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/APICtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/ParamsData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/JsonData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/XmlData.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Sandbox/SandboxCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Sandbox/SandboxCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/TransitionModal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/TransitionModal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/ModalAnimatedTransitioning.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/ModalAnimatedTransitioning.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/PresentationVc.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/ModalAnimatedTransitioning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/TransitionModal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitonModal/PresentationVc.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationAnimationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationAnimationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationTransitionDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationTransitionDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationTransitionDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationAnimationController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreAnmation/TransitionView.h" isTestSource="false" />
@@ -158,14 +164,14 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TextField专题/TextFieldController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TextField专题/TextFieldController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TextField专题/TextFieldController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/NSLockController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/SynchronizedController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/ThreadSyncController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/SynchronizedController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/SynchronizedController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/GCDSemaphoreController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/NSConditionController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/GCDSemaphoreController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/ThreadSyncController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/NSLockController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/NSConditionController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ThreadSync/NSLockController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SysSchemes/SysSchemesCtrl.m" isTestSource="false" />
@@ -173,11 +179,11 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SysSchemes/SysSchemesCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CABasicAnimationView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CABasicAnimationView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CALayer/CALayerView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/PrefixHeader.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.m" isTestSource="false" />
@@ -185,37 +191,45 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/GCD/GCDViewCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/GCD/GCDViewCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/XibCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/XibCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/XibCell.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Slider专题/SliderController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/GraffitiView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/BezierPathView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/UIColor+Random.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/CustomDrawView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/GraffitiView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/BezierPathView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/spark.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/UIColor+Random.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/BezierPathView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/spark.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/CustomDrawView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRCodeController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRCodeController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/QRcode/QRcodeCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DatePicker专题/DataPickerController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DatePicker专题/DataPickerController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.m" isTestSource="false" />
@@ -226,12 +240,12 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/网络状态监测专题/Reachability/Reachability.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/网络状态监测专题/ReachabilityCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/网络状态监测专题/ReachabilityCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKViewController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKXibCustomView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKXibCustomView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/CustomTouchView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKXibCustomView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKXibCustomView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/CustomTouchView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/LKViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIView专题/CustomTouchView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/WebView专题/1.jpg" isTestSource="false" />
@@ -240,22 +254,22 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/WebView专题/WebViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/tabbar_bg.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/TabBarController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/TabBarController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/TabBarController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/TabBarController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TabBarController专题/TabBarController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/FMDBctrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabase.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDB.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabase.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabasePool.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseQueue.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabase.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabasePool.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/fmdb/FMDatabasePool.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/FMDB/FMDBctrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIDevice/DeviceCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/UIDevice/DeviceCtrl.xib" isTestSource="false" />
@@ -289,21 +303,21 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Archived/CustomArchiveObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Archived/ArchivedCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Archived/CustomArchiveObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/GestureRecognizeController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/GestureRecognizeController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/GestureRecognizeController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/GestureRecognizeController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/手势专题/GestureRecognizeController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Singleton专题/LKSingleton.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Singleton专题/LKSingleton.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/MyCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/NSString+Extent.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/TableViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/TableViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/NumberGroup.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/MyCell.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/NSString+Extent.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/Number.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/MyCell.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/NumberGroup.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/Number.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/MyCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/TableView专题/NumberGroup.h" isTestSource="false" />
@@ -313,7 +327,10 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SegmentedControl专题/SegmentedViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Preference/PreferenceCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Preference/PreferenceCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/MotionEffect/MotionEffectCtrl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/MotionEffect/UIView+MotionEffect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/MotionEffect/UIView+MotionEffect.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/MotionEffect/MotionEffectCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ViewController专题/MyViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ViewController专题/MyViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ViewController专题/MyViewController.m" isTestSource="false" />
@@ -325,14 +342,6 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSOperation/NSBlockOperationVC.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSOperation/NSBlockOperationVC.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/NSOperation/NSOperationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/XmlData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/APICtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/ParamsData.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/JsonData.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/APICtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/ParamsData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/JsonData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/API/XmlData.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.xib" isTestSource="false" />
@@ -349,28 +358,28 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJClass.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyType.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSString+MJExtension.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJDictionaryCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJClass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJProperty.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJProperty.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJCoding.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSString+MJExtension.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJProperty.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJProperty.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyKey.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJProperty.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJFoundation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyKey.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJCoding.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJKeyValue.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyType.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJExtension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJDictionaryCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJKeyValue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJExtensionConst.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/LICENSE" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJExtension/README.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgress.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgress.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/HACursor/HASortButton.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/HACursor/icons.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/HACursor/UIColor+RGBA.h" isTestSource="false" />
@@ -398,11 +407,11 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/LICENSE" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+GIF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/NSData+ImageContentType.m" isTestSource="false" />
@@ -411,25 +420,25 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+WebCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIButton+WebCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/NSData+ImageContentType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIButton+WebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDecoder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloader.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageCompat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJRefresh.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIView+MJExtension.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefreshConst.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h" isTestSource="false" />
@@ -439,89 +448,89 @@
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefresh.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIView+MJExtension.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshFooter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshHeader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshComponent.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshHeader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefresh.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefreshConst.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIView+MJExtension.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefresh.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/LICENSE" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/MJRefresh/README.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNEmpty.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressConfiguration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIColor+KVNContrast.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNEmpty.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIColor+KVNContrast.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressConfiguration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/KVNProgress/UIColor+KVNContrast.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SWRevealViewController/SWRevealViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/第三方专题/SWRevealViewController/SWRevealViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/PickerView专题/PickerViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/PickerView专题/PickerViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/PickerView专题/PickerViewController.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ScrollView专题/scoll.jpg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/PlistTool.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/PlistTool.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/User.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/PlistCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/PlistCtrl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Plist/PlistTool.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Alert专题/AlertViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Alert专题/AlertViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/Alert专题/AlertViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband+CoreDataProperties.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/CoreDataCtrl.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Wife+CoreDataProperties.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband+CoreDataProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Wife+CoreDataProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/CoreDataCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Wife.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Wife+CoreDataProperties.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/LKCoreData.xcdatamodeld/LKCoreData.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Wife.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/CoreDataCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband+CoreDataProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/CoreData/Husband.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LuoKiOS/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AMScrollingNavbar/AMScrollingNavbar-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LuoKiOS/Pods-LuoKiOS-acknowledgements.plist" isTestSource="false" />
@@ -532,38 +541,38 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AMScrollingNavbar/AMScrollingNavbar/AMScrollingNavbar.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AMScrollingNavbar/AMScrollingNavbar/UIViewController+ScrollingNavbar.h" isTestSource="false" />
@@ -573,6 +582,7 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
+          <root url="file:///usr/include/libxml2" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
@@ -664,6 +674,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
         </CLASSES>
         <SOURCES>
+          <root url="file:///usr/include/libxml2" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />

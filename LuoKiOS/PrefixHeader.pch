@@ -33,7 +33,8 @@
 #endif
 
 
-
+#import "InteractionCtrl.h"             // OC和JS的交互(UIWebView)
+#import "WKWebViewCtrl.h"               // OC和JS的交互(WKWebView)
 
 #import "GestureRecognizeController.h"  // 手势专题 (5大手势，自定义手势)
 #import "CustomGestureRecognizer.h"     // 自定义手势（左右擦拭滑动）
@@ -291,7 +292,7 @@
 
 
 #import "QRcodeCtrl.h"
-
+#import "QRCodeController.h"
 
 
 #import "PushWithNotifyCtrl.h"
@@ -312,6 +313,26 @@
 
 #import "UIViewController+ScrollingNavbar.h"   //上拉显示下拉隐藏的导航栏
 
+#import "InternationalizationVC.h"//国际化
+
+
+#import "DatePickerModeCountDownTimerVC.h" //修改countDownTimer模式下英文显示为指定汉字
+
+
+#import "NotificationVC.h"   //通知
+
+
+#import "NHBalancedVC.h"    //照片墙
+
+#import "NullVC.h"     // 网络数据返回空的情况处理
+
+
+#import "Base1VC.h"    // block专题
+
+#import "GifVC.h"     //播放gif
+
+
+#import "TableVC.h"  //table分离轻量化
 
 
 

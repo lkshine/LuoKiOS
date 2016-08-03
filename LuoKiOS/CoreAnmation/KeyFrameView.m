@@ -126,6 +126,34 @@
 }
 
 
+/*
+ 
+ 简单动画配合关键帧应用弄混淆的代码如下：
+ 
+ [UIView animateKeyframesWithDuration:2 delay:0 options:UIViewAnimationOptionRepeat animations:^{
+ //这里的0.5是表示最外层动画的时间占比
+ 
+ [UIView addKeyframeWithRelativeStartTime:0 relativeDuration:0.5 animations:^{
+ _image.transform = CGAffineTransformMakeScale(1.5, 1.5);
+ }];
+ [UIView addKeyframeWithRelativeStartTime:0.5 relativeDuration:0.5 animations:^{
+ _image.transform = CGAffineTransformMakeScale(0.5, 0.5);
+ }];
+ 
+ } completion:^(BOOL finished) {
+ 
+ }];
+ 
+ 而不是
+ 
+ [UIView animateWithDuration:2 delay:0 options:UIViewAnimationOptionRepeat  animations:^{
+            ...
+
+ 
+ */
+
+
+//苹果Entitlements http://www.ithao123.cn/content-6309846.html
 
 - (IBAction)clickPlay:(id)sender {
     
@@ -135,5 +163,53 @@
     [self downSnowStorm];
 }
 
+#pragma mark -- 获取今天的0点时间和下一天的0店时间
+- (void)getToday0amAndTomorrow0am {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDate *now = [NSDate date];
+    NSDateComponents *components = [calendar components:NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay fromDate:now];
+    NSDate *startDate = [calendar dateFromComponents:components];
+    NSDate *endDate = [calendar dateByAddingUnit:NSCalendarUnitDay value:1 toDate:startDate options:0];
+    NSLog(@"endData = %@", endDate);
+}
+
+#pragma mark -- 获取今天的0点时间和下一天的0点时间
+- (void)gotToday0amAndTomorrow0am {
+    
+    NSTimeZone *gmt = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier: NSCalendarIdentifierGregorian];
+    [calendar setTimeZone:gmt];
+    NSDate *date = [NSDate date];
+    NSDateComponents *components = [calendar components:NSUIntegerMax fromDate:date];
+    components.day -= 1;
+    [components setHour:0];
+    [components setMinute:0];
+    [components setSecond: 0];
+    NSDate *startDate = [calendar dateFromComponents:components];
+    NSDate *endDate = [calendar dateByAddingUnit:NSCalendarUnitDay value:1 toDate:startDate options:0];
+    NSLog(@"%@", endDate);
+    
+}
+
+#pragma mark -- 获取指定时间
+-(NSDate *)getStartTime:(NSDate *)date{
+    static NSDateFormatter *dateFormat = nil;
+    if (dateFormat == nil) {
+        dateFormat = [[NSDateFormatter alloc] init];
+        [dateFormat setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"]];
+        [dateFormat setDateFormat:@"yyyy-MM-dd-HH-mm-ss"];//设定时间格式,这里可以设置成自己需要的格式
+        [dateFormat setTimeZone:[NSTimeZone defaultTimeZone]];
+    }
+    
+    NSString *locationString=[dateFormat stringFromDate: date];
+    NSArray  *timeArray=[locationString componentsSeparatedByString:@"-"];
+    SInt32 value_Y  =  (SInt32)[[timeArray objectAtIndex:0]intValue];
+    SInt8 value_M  =  (SInt8)[[timeArray objectAtIndex:1]intValue];
+    SInt8 value_D  =  (SInt8)[[timeArray objectAtIndex:2]intValue];
+    NSString *stringDateStart = [NSString stringWithFormat:@"%d-%d-%d-%d-%d-%d",(int)value_Y,value_M,value_D,0,0,0];
+    NSDate *dateStart_ = [dateFormat dateFromString:stringDateStart];
+    
+    return dateStart_;
+}
 
 @end

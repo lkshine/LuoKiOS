@@ -100,9 +100,15 @@
     }
     
     NSError * newError = nil;
-    
+ 
+     //json转字典
     NSDictionary * dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&newError];
     
+ //字典转json  [NSJSONSerialization dataWithJSONObject:dict options:0 error:nil]
+
+ 
+ 
+ 
     // 获取对应的数据信息
     NSArray * array = dictionary[@"news"];
     NSDictionary * dic = array[0];

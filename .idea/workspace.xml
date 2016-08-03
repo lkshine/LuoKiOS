@@ -2,584 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9943da-6914-4cc9-b336-ef3d249465d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/spark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/blackNav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/greenNav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/zhu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/BluePoint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/RedPoint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/CIA_SDK" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/_CodeSignature/CodeDirectory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/_CodeSignature/CodeRequirements" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/_CodeSignature/CodeSignature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ScrollView专题/scoll.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TabBarController专题/tabbar_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_00.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Eat/eat_39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/PictureFiles/Leo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/WebView专题/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/icons.bundle/icon_delet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/icons.bundle/icon_more@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefresh.bundle/arrow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Headers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Reveal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/A/Reveal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/Current" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/MOBFoundation" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/SMS_SDK" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/音频专题/Deep Side - Booty Music.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/APICtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/APICtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/JsonData.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/JsonData.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/XmlData.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/API/XmlData.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Archived/ArchivedCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Archived/ArchivedCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Archived/CustomArchiveObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Archived/CustomArchiveObject.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/0.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/1.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/2.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/3.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Chat.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Contacts.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/CountDown0.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/CountDown1.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/CountDown2.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/CountDown3.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/GreenChat.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Play.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/PurpleChat.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Refresh.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Search.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/SnowStorm.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/SpiderMan.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/Twitter.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CameraAndAlbum/CameraCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CameraAndAlbum/CameraCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CameraAndAlbum/CameraCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableFooterView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionReusableHeaderView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CollectionViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/CustomCollectionCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/XibCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/XibCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CollectionView专题/XibCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/AnimationGroupView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/AnimationGroupView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/AnimationGroupView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/ModalAnimatedTransitioning.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/ModalAnimatedTransitioning.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/PresentationVc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/PresentationVc.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/TransitionModal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitonModal/TransitionModal.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/CoreDataCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/CoreDataCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Husband+CoreDataProperties.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Husband+CoreDataProperties.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Husband.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Husband.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/LKCoreData.xcdatamodeld/LKCoreData.xcdatamodel/contents" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Wife+CoreDataProperties.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Wife+CoreDataProperties.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Wife.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreData/Wife.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/BezierPathView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/BezierPathView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/CoreGraphicCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/CustomDrawView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/CustomDrawView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/GraffitiView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/GraffitiView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/UIColor+Random.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreGraphics/UIColor+Random.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreMotion/CoreMotionCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreMotion/CoreMotionCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/CoreMotion/CoreMotionCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DataParsingCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DataParsingCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DataParsingCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DomDataParsingCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DomDataParsingCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DomParsingClass/GDataXMLNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/DomParsingClass/GDataXMLNode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/SaxDataParsingCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/SaxDataParsingCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DataParsing/teacher.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/FMDBctrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/FMDBctrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDB.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabase.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabase.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseAdditions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseAdditions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabasePool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabasePool.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseQueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMDatabaseQueue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/FMResultSet.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/FMDB/fmdb/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/GCD/GCDViewCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/GCD/GCDViewCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Location/LocationCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Location/LocationCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Location/LocationCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Map/MapCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Map/MapCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/BundleOrUrlCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSArray+ZXPUnicode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSDictionary+ZXPUnicode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/UniCode/NSObject+ZXPUnicode.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSBundleOrNSUrl/aa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSBlockOperationVC.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSBlockOperationVC.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSInvocationOperationVC.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSInvocationOperationVC.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSOperationController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSOperation/NSOperationController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSThread/KCImageData.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSThread/KCImageData.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSThread/NSThreadController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSThread/NSThreadController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NSThread/NSThreadController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/NavCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/NavCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/NavCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/TempViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/TempViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NavigationController专题/TempViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NetworkProgramming/NetworkProgrammingController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NetworkProgramming/NetworkProgrammingController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/NetworkProgramming/NetworkProgrammingController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/CustomPageCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/CustomPageCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/PageController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/PageController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PageControl专题/PageController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PickerView专题/PickerViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PickerView专题/PickerViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PickerView专题/PickerViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistTool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistTool.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/User.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Preference/PreferenceCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Preference/PreferenceCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/PrefixHeader.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeWebViewCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/FrontCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/FrontCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/FrontCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/HATestView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/HATestView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RearCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RearCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RearCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RevealCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RevealCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RightCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RightCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RightCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/AuthcodeView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/AuthcodeView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/Headers/CIA.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/Headers/CIA_SDK.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/Modules/module.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/CIA_SDK.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Sandbox/SandboxCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Sandbox/SandboxCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ScrollView专题/ScrollViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Searchbar专题/SearchBarController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Searchbar专题/SearchBarController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Searchbar专题/SearchBarController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SegmentedControl专题/SegmentedViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SegmentedControl专题/SegmentedViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SegmentedControl专题/SegmentedViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Singleton专题/LKSingleton.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Singleton专题/LKSingleton.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Slider专题/SliderController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Slider专题/SliderController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Slider专题/SliderController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SysSchemes/SysSchemesCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SysSchemes/SysSchemesCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/SysSchemes/SysSchemesCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TabBarController专题/TabBarController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TabBarController专题/TabBarController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TabBarController专题/TabBarController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/MyCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/MyCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/MyCell.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/NSString+Extent.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/NSString+Extent.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/Number.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/Number.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/NumberGroup.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/NumberGroup.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/TableViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/TableViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/TableViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextField专题/TextFieldController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextField专题/TextFieldController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextField专题/TextFieldController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextView专题/TextViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextView专题/TextViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/TextView专题/TextViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/GCDSemaphoreController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/GCDSemaphoreController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/NSConditionController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/NSConditionController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/NSLockController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/NSLockController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/SynchronizedController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/SynchronizedController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/ThreadSyncController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ThreadSync/ThreadSyncController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIDevice/DeviceCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIDevice/DeviceCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIDevice/DeviceCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/DrawImageCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/DrawImageCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/DrawImageCtrl.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/DrawImageView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImageDraw/DrawImageView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/ImageViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/ImageViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIImage专题/ImageViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/CustomTouchView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/CustomTouchView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKXibCustomView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKXibCustomView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/UIView专题/LKXibCustomView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ViewController专题/MyViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ViewController专题/MyViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/ViewController专题/MyViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/WebView专题/WebViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/WebView专题/WebViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/WebView专题/WebViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/GestureRecognizeController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/GestureRecognizeController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/GestureRecognizeController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAAnimationTool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAAnimationTool.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HACursor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HACursor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAItemManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAItemManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollViewCell.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollViewCell.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollViewManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HARootScrollView/HARootScrollViewManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAScrollNavBar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HAScrollNavBar.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HASortButton.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HASortButton.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HASortItemView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/HASortItemView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/UIColor+RGBA.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/UIColor+RGBA.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/UIView+Extension.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/HACursor/UIView+Extension.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgress.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/KVNProgressView.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIColor+KVNContrast.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIColor+KVNContrast.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNEmpty.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNEmpty.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/KVNProgress/UIImage+KVNImageEffects.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJDictionaryCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJDictionaryCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJExtension.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJExtensionConst.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJExtensionConst.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJFoundation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJFoundation.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJProperty.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJProperty.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyKey.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyKey.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyType.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/MJPropertyType.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJClass.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJClass.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJCoding.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJCoding.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJKeyValue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJKeyValue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJProperty.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSObject+MJProperty.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSString+MJExtension.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/MJExtension/NSString+MJExtension.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJExtension/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshAutoFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshBackFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshComponent.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshComponent.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshHeader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Base/MJRefreshHeader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshGifHeader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshNormalHeader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/Custom/Header/MJRefreshStateHeader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefresh.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefreshConst.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/MJRefreshConst.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJExtension.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJRefresh.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIScrollView+MJRefresh.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIView+MJExtension.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/MJRefresh/UIView+MJExtension.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/MJRefresh/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgress.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgress.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/NJKWebViewProgress/NJKWebViewProgressView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/A/Headers/IBANetServiceTypes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/A/Headers/IBARevealLoader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/A/Headers/IBARevealLogger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/Reveal.framework/Versions/A/Headers/Reveal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/NSData+ImageContentType.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/NSData+ImageContentType.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDImageCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageCompat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageCompat.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDecoder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDecoder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImageOperation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIButton+WebCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIButton+WebCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+GIF.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+GIF.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+MultiFormat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImage+MultiFormat.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+WebCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIImageView+WebCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/IMOBFPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFApplication.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFColor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFData.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFDataService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFDate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFDebug.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFDevice.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFHttpPostedFile.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFHttpService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFImage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFImageGetter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFImageObserver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFImageService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFImageServiceTypeDef.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFJSContext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFJSTypeDefine.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFJson.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFMedia.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFNetworkFlowInfo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFNotificationCenter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFNumber.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFOAuthService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFPluginManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFRSAHelper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFRSAKey.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFRegex.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFString.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFXml.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFXmlNode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Headers/MOBFoundation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/en.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/MOBFoundation.framework/readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDK+AddressBookMethods.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDK+DeprecatedMethods.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDK+ExtexdMethods.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDKAddressBook.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDKCountryAndAreaCode.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDKResultHanderDef.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/Extend/SMSSDKUserInfo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Headers/SMSSDK.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SMS_SDK/SMS_SDK.framework/en.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SWRevealViewController/SWRevealViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/第三方专题/SWRevealViewController/SWRevealViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/Reachability/Reachability.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/Reachability/Reachability.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/ReachabilityCtrl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/ReachabilityCtrl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/音频专题/AVAudioController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/音频专题/AVAudioController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/音频专题/AVAudioController.xib" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LuoKiOS/Base.lproj/LaunchScreen.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LuoKiOS/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/扫描框.imageset/扫描框@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/扫描线.imageset/扫描线@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/白色返回_想去.imageset/白色返回_想去@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/扫描框.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/扫描线.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/白色返回_想去.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/DynamicAnimator/DynamicAnimatorCtrl.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/MotionEffect/MotionEffectCtrl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/MotionEffect/MotionEffectCtrl.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/MotionEffect/UIView+MotionEffect.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/MotionEffect/UIView+MotionEffect.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRCodeController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRCodeController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS.xcworkspace/xcuserdata/luok.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LuoKiOS.xcworkspace/xcuserdata/luok.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LuoKiOS.iml" afterPath="$PROJECT_DIR$/.idea/LuoKiOS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LuoKiOS.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/LuoKiOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS.xcodeproj/xcuserdata/luok.xcuserdatad/xcschemes/LuoKiOS.xcscheme" afterPath="$PROJECT_DIR$/LuoKiOS.xcodeproj/xcuserdata/luok.xcuserdatad/xcschemes/LuoKiOS.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS.xcodeproj/xcuserdata/luok.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/LuoKiOS.xcodeproj/xcuserdata/luok.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/AppDelegate.h" afterPath="$PROJECT_DIR$/LuoKiOS/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/API/APICtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/API/APICtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.h" afterPath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.m" afterPath="$PROJECT_DIR$/LuoKiOS/API/ParamsData.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/AppDelegate.m" afterPath="$PROJECT_DIR$/LuoKiOS/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/LuoKiOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/BaiduMap/BaiduMapCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.xib" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerView.m" afterPath="$PROJECT_DIR$/LuoKiOS/CALayer/CALayerView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.m" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.xib" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/CoreAnimationView.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.m" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/KeyFrameView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationAnimationController.m" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionNavi/NavigationAnimationController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionView.m" afterPath="$PROJECT_DIR$/LuoKiOS/CoreAnmation/TransitionView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.m" afterPath="$PROJECT_DIR$/LuoKiOS/DatePicker专题/DataPickerCountDownController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/GCD/GCDViewCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/GCD/GCDViewCtrl.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Info.plist" afterPath="$PROJECT_DIR$/LuoKiOS/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/ViewController.h" afterPath="$PROJECT_DIR$/LuoKiOS/ViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/ViewController.m" afterPath="$PROJECT_DIR$/LuoKiOS/ViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/main.m" afterPath="$PROJECT_DIR$/LuoKiOS/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOSTests/Info.plist" afterPath="$PROJECT_DIR$/LuoKiOSTests/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOSTests/LuoKiOSTests.m" afterPath="$PROJECT_DIR$/LuoKiOSTests/LuoKiOSTests.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOSUITests/Info.plist" afterPath="$PROJECT_DIR$/LuoKiOSUITests/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOSUITests/LuoKiOSUITests.m" afterPath="$PROJECT_DIR$/LuoKiOSUITests/LuoKiOSUITests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Main.storyboard" afterPath="$PROJECT_DIR$/LuoKiOS/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Plist/PlistCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Plist/PlistTool.m" afterPath="$PROJECT_DIR$/LuoKiOS/Plist/PlistTool.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/PrefixHeader.pch" afterPath="$PROJECT_DIR$/LuoKiOS/PrefixHeader.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/Push/PushWithNotifyCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/QRcode/QRcodeCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RearCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/RevealCtr/RearCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SMSVerificationCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.m" afterPath="$PROJECT_DIR$/LuoKiOS/SMSVerification/SecurityCodeViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/SQLite3/SQLiteCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/TableView专题/TableViewController.m" afterPath="$PROJECT_DIR$/LuoKiOS/TableView专题/TableViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/UIDevice/DeviceCtrl.m" afterPath="$PROJECT_DIR$/LuoKiOS/UIDevice/DeviceCtrl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.m" afterPath="$PROJECT_DIR$/LuoKiOS/手势专题/CustomGestureRecognizer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/Reachability/Reachability.m" afterPath="$PROJECT_DIR$/LuoKiOS/网络状态监测专题/Reachability/Reachability.m" />
     </list>
     <ignored path="LuoKiOS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -603,7 +77,7 @@
       <file leaf-file-name="AlertViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="600">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#166#197#0" expanded="true" />
@@ -615,8 +89,8 @@
       <file leaf-file-name="AlertViewController.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -625,7 +99,7 @@
       <file leaf-file-name="CABasicAnimationView.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
+            <state relative-caret-position="90">
               <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
@@ -635,7 +109,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LuoKiOS" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -653,7 +127,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1303" />
+    <option name="width" value="1301" />
     <option name="height" value="705" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -672,7 +146,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -697,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -785,7 +260,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -861,11 +335,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1303" height="705" extended-state="0" />
+    <frame x="0" y="23" width="1301" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.49687988" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.50652343" order="7" side_tool="true" content_ui="tabs" />
@@ -903,6 +377,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1017,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LuoKiOS/CALayer/CABasicAnimationView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state relative-caret-position="90">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
@@ -1025,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="600">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#166#197#0" expanded="true" />
@@ -1035,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LuoKiOS/Alert专题/AlertViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>

@@ -15,7 +15,7 @@
 @property (nonatomic, copy ) NSString * detailDescription;
 
 //根据内容计算所需高度
-@property (nonatomic,assign) CGFloat    cellLabelHeight;
+@property (nonatomic, assign) CGFloat    cellLabelHeight;
 
 + (instancetype)number;
 

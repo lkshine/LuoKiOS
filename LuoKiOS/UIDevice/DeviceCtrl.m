@@ -8,6 +8,17 @@
 
 #import "DeviceCtrl.h"
 
+//这里我讲该宏单独拿到这里放置的目的是为了版本比较（app版本，iPhone/iPad版本）的讲解
+#define XcodeAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+//这是Umeng统计提供的宏定义，在使用Umeng的时候，需要设置App版本信息，如下所示，
+#define UmengGetAppVersion [MobClick setAppVersion:XcodeAppVersion]; //参数为NSString * 类型,自定义app版本信息，如果不设置，默认从CFBundleVersion里取
+
+//iOS系统版本比较
+#define kSystemVersion              [[UIDevice currentDevice] systemVersion]
+
+
+
 
 @interface DeviceCtrl ()
 
@@ -33,6 +44,17 @@
     [self device];
     
 }
+
+
+- (void)getSmallVesion {
+    NSString *currentSystemVersion = kSystemVersion;
+    if ([currentSystemVersion compare:@"5.1"] != NSOrderedAscending) {
+        //当前iOS版本大于5.1
+    }else if ([currentSystemVersion compare:@"5.0.1"] != NSOrderedAscending) {
+        //当前iOS版本大于5.0.1
+    }
+}// 使用 NSOrderedAscending 这种比较方法很方便，不仅可以进行5.1与6.1的比较，还可以细化到5.1和5.0.1版本的比较。之所以需要细化，是因为每一个小版本之间，sdk还有有一些差异的，就比如 避免文件被备份到iCloud（http://my.oschina.net/leejan97/blog/391952），实现方式在5.1和5.0.1不同。
+
 
 - (UIDevice *)device {
     
@@ -201,6 +223,7 @@
 #pragma mark -- 移除通知
 - (void)viewWillDisappear:(BOOL)animated {
     
+    [super viewWillDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
 }

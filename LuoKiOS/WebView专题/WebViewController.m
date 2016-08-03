@@ -18,6 +18,10 @@
 
 @end
 
+
+
+//很多时候我们得到h5界面并不能很好的适配，http://www.tuicool.com/articles/FNrIbmi
+
 @implementation WebViewController
 
 - (void)viewDidLoad {

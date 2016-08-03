@@ -15,7 +15,7 @@
 + (instancetype)number {
     
     Number *number = [[Number alloc] init];
-    number.titleNumber = [NSString stringWithFormat:@"%d",arc4random_uniform(100000)];
+    number.titleNumber = [NSString stringWithFormat:@"%d", arc4random_uniform(100000)];
     int radmonNumber = arc4random_uniform(2);
     
     if (1 == radmonNumber) {

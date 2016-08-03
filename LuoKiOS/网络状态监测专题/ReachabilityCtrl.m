@@ -15,6 +15,7 @@
 @implementation ReachabilityCtrl
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     [self useNotifiction];
 }
@@ -24,7 +25,7 @@
 - (void)getNetworkingStatus {
     
     //可以使用多种方式初始化
-    Reachability *reach = [Reachability reachabilityWithHostName:@"www.cctv.com"];
+    Reachability * reach = [Reachability reachabilityWithHostName:@"www.cctv.com"];
     
     //判断当前的网络状态
     switch ([reach currentReachabilityStatus]) {

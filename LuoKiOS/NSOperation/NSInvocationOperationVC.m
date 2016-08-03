@@ -119,9 +119,6 @@
     }
 }
 
-
-
-
 /*
  
     首先使用NSInvocationOperation进行一张图片的加载演示，

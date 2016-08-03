@@ -48,6 +48,10 @@
                                                  repeats:YES];
 }
 
+
+//iOS里各种占位符号表示方式及打印方法 http://www.cocoachina.com/bbs/read.php?tid=159210
+
+
 - (void)updateImageView {
     
     //更新页面显示

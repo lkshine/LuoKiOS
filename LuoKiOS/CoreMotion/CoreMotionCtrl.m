@@ -38,7 +38,7 @@
     
     if (!_motionMgr) {
         
-        _motionMgr = [[CMMotionManager alloc] init];
+        _motionMgr = [CMMotionManager new];
     }
     
     return _motionMgr;
@@ -251,7 +251,12 @@
     
 }
 
-
+#pragma mark -- Instruments--leak总报错在这个类里 ，但是却是在调用CoreAnimationCtrl类时会出现问题
+- (void)dealloc {
+    
+    self.motionMgr = nil;
+    NSLog(@"xiaohuila ");
+}
 
 @end
 

@@ -355,16 +355,21 @@
 
 #pragma mark -- 索引
 - (nullable NSArray<NSString *> *)sectionIndexTitlesForTableView:(UITableView *)tableView {
-    
+
     NSMutableArray * indexArray = [NSMutableArray new];
     
     for (NumberGroup * numberGroup in self.dataList) {
         
         [indexArray addObject:numberGroup.groupIndex];
     }
-    
+   
     return indexArray;
 }
+
+//- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(nonnull NSString *)title atIndex:(NSInteger)index {
+//    
+//    return index;
+//}
 
 
 #pragma mark - Table view delegate
@@ -376,7 +381,10 @@
 
 
 @end
-
+/*
+ http://ewww.starming.com/index.php?v=index&view=74   runloop 解决tableview滑动图片加载卡顿（虽然也可以用dispatch异步加载解决）
+ http://blog.csdn.net/jp940110jpjp/article/details/50011975  图片失真，其实就是图片大小不一，导致动态cell高问题
+ */
 
 
 /*

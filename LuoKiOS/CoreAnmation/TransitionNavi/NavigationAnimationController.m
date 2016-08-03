@@ -25,7 +25,7 @@
     [containerView addSubview:toView];
     toView.frame                 = containerView.bounds;
 
-    CATransform3D scaleTransform = CATransform3DMakeScale(0.6f, 0.6f, 0.6f);
+//    CATransform3D scaleTransform = CATransform3DMakeScale(0.6f, 0.6f, 0.6f);
     CATransform3D translationR   = CATransform3DMakeTranslation(containerView.frame.size.width, 0, 0);
     CATransform3D translationL   = CATransform3DMakeTranslation(-containerView.frame.size.width, 0, 0);
     
@@ -69,7 +69,7 @@
     [containerView addSubview:toView];
     toView.frame = containerView.bounds;
     
-    CATransform3D scaleTransform = CATransform3DMakeScale(0.6f, 0.6f, 0.6f);
+//    CATransform3D scaleTransform = CATransform3DMakeScale(0.6f, 0.6f, 0.6f);
     CATransform3D translationR = CATransform3DMakeTranslation(containerView.frame.size.width, 0, 0);
     CATransform3D translationL = CATransform3DMakeTranslation(-containerView.frame.size.width, 0, 0);
     CATransform3D rotationTransform = CATransform3DMakeRotation(0.6f, 0.6f, 0.6f,0.6f);

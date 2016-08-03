@@ -157,7 +157,7 @@ BOOL startFlag = YES;//Btn的title是否为开始
 //传入要倒计时的秒数，输出相对应的字符串
 - (NSString *)count:(NSInteger) date {
     
-    NSString *str = [[NSString alloc] init];
+    NSString *str = nil;//[[NSString alloc] init];  // analyzer ,nil换成后面的，查看结果
     
     //如果大于60分钟显示三个数字
     if (date / (60 * 60) >= 1) {
@@ -165,13 +165,13 @@ BOOL startFlag = YES;//Btn的title是否为开始
         NSInteger h = date / (60 * 60);
         NSInteger m = (date % (60 * 60)) / 60;
         NSInteger s = (date % (60 * 60)) % 60;
-        str = [NSString stringWithFormat:@"%d:%d:%d", h, m, s];
+        str = [NSString stringWithFormat:@"%ld:%ld:%ld", (long)h, (long)m, (long)s];
     }
     else {
         
         NSInteger m = date / 60;
         NSInteger s = date % 60;
-        str = [NSString stringWithFormat:@"%d:%d", m, s];
+        str = [NSString stringWithFormat:@"%ld:%ld", (long)m, (long)s];
     }
     
     return str;

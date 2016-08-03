@@ -56,10 +56,36 @@ static id _instance;   //也可以用manager一样写在类方法里面的参数
     return _instance;
 }
 
-- (id)copyWithZone:(NSZone *)zone {
+- (id)copyWithZone:(NSZone *)zone {   // 遵守<NSCopying>就实现方法
     
     return _instance;
 }
 
 
 @end
+
+
+/*
+ 
+ @protocol NSCopying
+ 
+ - (id)copyWithZone:(nullable NSZone *)zone;
+ 
+ @end
+ 
+ @protocol NSMutableCopying
+ 
+ - (id)mutableCopyWithZone:(nullable NSZone *)zone;
+ 
+ @end
+ 
+ @protocol NSCoding
+ 
+ - (void)encodeWithCoder:(NSCoder *)aCoder;
+ - (nullable instancetype)initWithCoder:(NSCoder *)aDecoder; // NS_DESIGNATED_INITIALIZER
+ 
+ @end
+ 
+ */
+
+

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LuoKiOS
+
+  Created by lkshine on 16/7/19.
+  Copyright © 2016年 lkshine. All rights reserved.
+*/
+"hello"="你好";
+"switchBtn"="切换按钮";

@@ -63,7 +63,7 @@
 - (void)modifyPlist {
     
     //创建一个存放从Plist文件取出数据的数组
-    NSArray * array = [NSArray array];
+    NSArray * array;
     //将取出的数据放入数组array中
     PlistTool * Plist = [[PlistTool alloc] init];
     array = [Plist getAllData];

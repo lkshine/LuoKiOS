@@ -46,8 +46,6 @@
 	<string>119请问网络定位</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>113请求网络定位</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

@@ -12,7 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView    * imageView;
 @property (weak, nonatomic) IBOutlet UIImageView    * tomCat;
-@property (nonatomic, weak) NSMutableArray          * fpsArray;     //这里是weak还是strong至关重要噢！，详细看代码说明
+@property (nonatomic, strong) NSMutableArray          * fpsArray;     //这里是weak还是strong至关重要噢！，详细看代码说明
 @property (weak, nonatomic) IBOutlet UIImageView    * web1Image;
 @property (weak, nonatomic) IBOutlet UIImageView    * web2Image;
 
@@ -40,6 +40,10 @@
             
             UIImage * image = [UIImage imageWithContentsOfFile:filePath];
             [_fpsArray addObject:image];
+            
+            
+//            //读取图片所在路径，方便数据库读取操作
+//            NSString *imagePath = [[NSBundle mainBundle] pathForResource:@”apple” ofType:@”png”];
         }
     }
     
@@ -50,7 +54,7 @@
 #pragma mark -- 帧动画封装代码
 - (void)AnimationByFPSArray {
     
-    self.tomCat.animationImages = self.fpsArray;
+    self.tomCat.animationImages = self.fpsArray;  //指针之间的赋值都是址复制，而不是值引用
     NSLog(@"1==== %@",  self.tomCat.animationImages);
     
     //动画播放速度及次数
@@ -63,10 +67,10 @@
     // 动画播放完毕后，清空animationImages所一直占用的内存
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((self.tomCat.animationDuration + 0.2) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        //PS重点：这里讲数组至为空非常重要，如果单纯直接给animationImages赋予nil，将不会释放内存，因为我们之前是对_fpsArray设置的是strong，而不是weak，所以anitionImages内存也指向了_fpsArray
-//        _fpsArray = nil;
+        //PS重点：这里讲数组至为空非常重要，如果单纯直接给animationImages赋予nil，将不会释放内存，因为我们之前是对_fpsArray设置的是strong，而不是weak，所以anitionImages内存也指向了_fpsArray，那将_fpsArray设置成weak呢？当然不行，你weak了，谁能hold住增添的mutbaleArray呢，再想想，指针之间的赋值都是址复制，而不是值引用，所以只有_fpsArray = nil，再来一次“指针间的赋值操作”，最终才能真的清空动画图片组，内存才能释放掉
         
-        self.tomCat.animationImages = nil;//_fpsArray;
+        _fpsArray = nil;
+        self.tomCat.animationImages = _fpsArray;   
         
         NSLog(@"2==== %@",  self.tomCat.animationImages);
     });
@@ -120,7 +124,6 @@
      */
     
     self.imageView.image = [UIImage imageNamed:@"Leo.jpg"];
-    
 }
 
 #pragma mark -- imageWithContentsOfFile: 没有缓存,自动释放(传入文件的全路径)
@@ -175,7 +178,7 @@
 
 }
 
-
+//SDWebImage详解 http://my.oschina.net/caijunrong/blog/706416
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     NSURL *url = [NSURL URLWithString:@"http://img1.imgtn.bdimg.com/it/u=2505641315,3514568628&fm=21&gp=0.jpg"];
@@ -192,6 +195,12 @@
     [SDWebImageManager.sharedManager.imageCache clearDisk];
     
 }
+
+//UIButton 点击事件响应延迟 有时候需要点击两下  http://blog.csdn.net/zzsatym/article/details/51849824  http://my.oschina.net/caijunrong/blog/512383 http://code4app.com/requirement/5292eb5ccb7e845c7f8b5758
+
+
+
+//移除一个控件内的所有子控件 [self.btnFatherView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
 
 #pragma mark -- 图片压缩三种方法
 - (UIImage*)scaleFromImage:(UIImage*)image scaledToSize:(CGSize)newSize {

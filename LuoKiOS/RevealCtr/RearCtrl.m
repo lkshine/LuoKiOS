@@ -48,11 +48,15 @@
                      @"DrawImageCtrl", @"DeviceCtrl",
                      @"CALayerCtrl", @"CoreAnimationCtrl",
                      @"BundleOrUrlCtrl", @"SysSchemesCtrl",
-                     @"QRcodeCtrl", @"PushWithNotifyCtrl",
+                     @"QRCodeController", @"PushWithNotifyCtrl",
                      @"SMSVerificationCtrl", @"CollectionViewController",
                      @"APICtrl", @"CoreAnimationCtrl",
                      @"DynamicAnimatorCtrl", @"MotionEffectCtrl",
-                     @"CoreMotionCtrl"];
+                     @"CoreMotionCtrl", @"InteractionCtrl",
+                     @"WKWebViewCtrl", @"InternationalizationVC",
+                     @"DatePickerModeCountDownTimerVC", @"NotificationVC",
+                     @"NHBalancedVC", @"NullVC",
+                     @"Base1VC", @"GifVC", @"TableVC分离"];
     }
     return  _dataArr;
 }
@@ -141,7 +145,7 @@
             viewController = [[SysSchemesCtrl alloc] init];
             break;
         case 14:
-            viewController = [[QRcodeCtrl alloc] init];
+            viewController = [[QRCodeController alloc] init];
             break;
         case 15:
             viewController = [[PushWithNotifyCtrl alloc] init];
@@ -167,7 +171,37 @@
         case 22:
             viewController = [[CoreMotionCtrl alloc] init];
             break;
-            
+        case 23:
+            viewController = [[InteractionCtrl alloc] init];
+            break;
+        case 24:
+            viewController = [[WKWebViewCtrl alloc] init];
+            break;
+        case 25:
+            viewController = [[InternationalizationVC alloc] init];
+            break;
+        case 26:
+            viewController = [[DatePickerModeCountDownTimerVC alloc] init];
+            break;
+        case 27:
+            viewController = [[NotificationVC alloc] init];
+            break;
+        case 28:
+            viewController = [[NHBalancedVC alloc] init];
+            break;
+        case 29:
+            viewController = [[NullVC alloc] init];
+            break;
+        case 30:
+            viewController = [[Base1VC alloc] init];
+            break;
+        case 31:
+            viewController = [[GifVC alloc] init];
+            break;
+        case 32:
+            viewController = [[TableVC alloc] init];
+            break;
+        
         default:
             break;
     }
@@ -176,7 +210,6 @@
     [revealViewController pushFrontViewController:viewController animated:YES];
     
 }
-
 
 
 - (void)didReceiveMemoryWarning {

@@ -51,7 +51,7 @@
 //增加Plist文件中的数据
 - (void)addNewDataWith:(NSString *)data {
     
-    NSMutableArray * tmpArray = [NSMutableArray array];
+    NSMutableArray * tmpArray; //= [NSMutableArray array];  // analyzer ,nil换成后面的，查看结果
     tmpArray = [self getAllData];
     [tmpArray addObject:data];
     
@@ -63,7 +63,7 @@
 //删除Plist文件中的数据
 - (void)deleteDataWith:(NSString *)data {
     
-    NSMutableArray * tmpArray = [NSMutableArray array];
+    NSMutableArray * tmpArray = nil; // [NSMutableArray array];// analyzer ,nil换成后面的，查看结果
     tmpArray = [self getAllData];
     [tmpArray removeObject:data];
     

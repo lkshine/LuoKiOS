@@ -25,6 +25,7 @@
 {
     AuthcodeView *authCodeView;
     UITextField *_input;
+    CGFloat statusBarHeight;        //
 }
 
 @property (weak, nonatomic) IBOutlet UITextField             * phoneNumber;
@@ -54,7 +55,7 @@
 - (void)initUI {
     
     //状态栏的屏幕设配
-    CGFloat statusBarHeight   = 0;
+    //CGFloat statusBarHeight; //   = 0;// analyzer ,换成后面的，查看结果,可是依然没效果，设成全局变量
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0) {
         
         statusBarHeight = 20;

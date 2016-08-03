@@ -26,6 +26,7 @@
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];   // analyzer ,注销该段，查看结果
     [CIA cancelVerification];
 }
 

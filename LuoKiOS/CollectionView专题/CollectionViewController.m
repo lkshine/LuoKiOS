@@ -71,7 +71,7 @@ static NSString * const reuseIdentifierFooter = @"MYFooterCell";
     
     // Configure the cell
     cell.detailLabel.text = [NSString stringWithFormat:@"%ld-%ld",(long)indexPath.section, (long)indexPath.row];
-    
+
     return cell;
 }
 
@@ -136,7 +136,7 @@ static NSString * const reuseIdentifierFooter = @"MYFooterCell";
     
     if ([kind isEqualToString:UICollectionElementKindSectionHeader]){
         CollectionReusableHeaderView *view = (CollectionReusableHeaderView *)[collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:reuseIdentifierHeader forIndexPath:indexPath];
-        view.headerLabel.text = [NSString stringWithFormat:@"这是header:%ld",indexPath.section];
+        view.headerLabel.text = [NSString stringWithFormat:@"这是header:%ld",(long)indexPath.section];
         supplementaryView = view;
         
     }
@@ -164,6 +164,8 @@ static NSString * const reuseIdentifierFooter = @"MYFooterCell";
 @end
 
 
+//iOS 添加定制字体到应用程序中 http://blog.csdn.net/apple_app/article/details/38871155
+//添加第三方字体，个性化字体
 
 
 

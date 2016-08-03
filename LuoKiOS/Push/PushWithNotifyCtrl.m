@@ -97,6 +97,7 @@
 //选个一个合适的时机注销本地通知，不然即使删除应用，该通知依然在系统内
 - (void)viewWillDisappear:(BOOL)animated {
     
+    [super viewWillDisappear:animated];
     [self cancelLocalNotificationWithKey:LocationPushKey];
     // or 移除所有本地通知
     // [[UIApplication sharedApplication] cancelAllLocalNotifications];
@@ -147,4 +148,6 @@
 
 //对于友盟1.2.x版本中，该blog对于自定义弹出及友盟做了优化，可以借鉴http://blog.csdn.net/woaifen3344/article/details/41316267
 
+
+// 不借助第三方的远程推送 http://my.oschina.net/leejan97/blog/393751
 @end

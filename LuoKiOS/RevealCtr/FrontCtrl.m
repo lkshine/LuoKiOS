@@ -7,7 +7,10 @@
 //
 
 #import "FrontCtrl.h"
-#import "HATestView.h"
+#import "HATestView.h"                      //仿照网易新闻栏【没做完】
+#import "AdvertiseVC.h"         //启动广告控制器
+
+
 
 @interface FrontCtrl ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSArray * titles;
@@ -32,11 +35,16 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(presentView:) name:@"presentView" object:nil];
     
     
-    //网易新闻栏
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pushToAd) name:@"pushtoad" object:nil];
     
 }
 
-
+- (void)pushToAd {
+    
+    AdvertiseVC * adVc = [[AdvertiseVC alloc] init];
+    [self.navigationController pushViewController:adVc animated:YES];
+    
+}
 
 - (void)initNetEaseMenu {
     
